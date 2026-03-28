@@ -63,3 +63,9 @@ La figure 8 illustre le succès de la connectivité depuis un hôte du VLAN 20 P
 Figure 8 : Connexion de PC3 à Internet
 
 [Connexion de PC3 à Internet](../images/network_configuration/Connection%20de%20PC3%20de%20VLAN20%20à%20internet.png)
+
+La figure 9 illustre la réussite de la connectivité de la VM Ubuntu Server vers internet.
+
+Figure 9 : Connexion de Ubuntu Server à Internet
+
+[Connexion de PC3 à Internet](../images/network_configuration/Connexion%20de%20Ubuntu%20Server%20à%20Internet.png)
