@@ -56,4 +56,4 @@ La figure 7 illustre le succès de la connectivité depuis un hôte du VLAN 10 P
 
 Figure 7 : Connexion de PC1 à Internet
 
-[Connexion de PC1 à Ubuntu Server](../images/network_configuration/Connection%20PC1%20de%20VLAN%2010%20à%20internet.png)
+[Connexion de PC1 à Internet](../images/network_configuration/Connection%20PC1%20de%20VLAN%2010%20à%20internet.png)
