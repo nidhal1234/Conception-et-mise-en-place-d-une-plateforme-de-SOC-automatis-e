@@ -20,12 +20,12 @@ conformité aux objectifs du projet.
 
 Figure 1 : Architecture réseau réseau cible
 
-[Accéder à l’Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)
+[Accéder à l’Architecture Réseau](../images/network_configuration/ArchitectureRéseau.png)
 
 Après la réalisation et la configuration de notre maquette, la validation fonctionnelle vise à s’assurer que l’architecture réseau conçue répond aux objectifs attendus en matière de connectivité, de segmentation logique, et de communication entre les différents équipements. Elle constitue une étape essentielle permettant de vérifier que la configuration des routeurs, commutateurs, pare-feux et machines virtuelles a été correctement appliquée, et que les liaisons établies entre les composants assurent un fonctionnement cohérent et stable. Cette validation repose sur une série de vérifications de base avant les tests approfondis, notamment la connectivité IP, la reconnaissance des VLANs, la disponibilité des services réseau essentiels et la conformité des adresses IP selon le plan d’adressage défini.
 
 Ces figures illustrent respectivement le déroulement et les résultats de ce test de connectivité, confirmant le bon fonctionnement des liens et des configurations réseau en place.
 
-Figure 1 : Architecture réseau réseau cible
-[Accéder à l’Architecture Réseau](../images/network_configuration/Connection%20PC1versPC3.png)
+Figure 2 : Test de connectivité de PC1 vers PC3
+[Test de connectivité de PC1 vers PC](../images/network_configuration/Connection PC1versPC3.png)
 
