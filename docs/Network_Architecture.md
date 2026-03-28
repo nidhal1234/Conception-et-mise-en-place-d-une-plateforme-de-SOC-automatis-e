@@ -18,8 +18,6 @@ interconnexions, ainsi que la segmentation du réseau prévue pour garantir perf
 Nous détaillerons ensuite les composants principaux et les configurations associées pour assurer la
 conformité aux objectifs du projet.
 
-Figure 1 : Maquette réseau cible
-
-[Accéder à l’Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)
+images/network_configuration/Architecture Réseau.png [Accéder à l’Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)
 
 
