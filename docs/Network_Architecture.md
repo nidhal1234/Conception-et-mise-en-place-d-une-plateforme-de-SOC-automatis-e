@@ -20,6 +20,6 @@ conformité aux objectifs du projet.
 
 Figure 1 : Maquette réseau cible
 
-images/network_configuration/Architecture Réseau.png [Accéder à l’Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)
+"images/network_configuration/Architecture Réseau.png" [Accéder à l’Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)
 
 
