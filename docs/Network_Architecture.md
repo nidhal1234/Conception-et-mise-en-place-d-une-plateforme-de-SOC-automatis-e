@@ -45,3 +45,6 @@ Contrairement à pfSense1, le pare-feu pfSense2 est correctement configuré en t
 Figure 5: Statut Backup du pfSense2 dans la configuration HA
 
 [Statut Backup du pfSense2 dans la configuration HA](../images/network_configuration/pfSense2%20comme%20Backup.png)
+
+La figure 6 illustre le succès de la connectivité établie entre un hôte du VLAN 10 et un hôte
+du VLAN 77, confirmant ainsi l’efficacité de la configuration mise en place.
