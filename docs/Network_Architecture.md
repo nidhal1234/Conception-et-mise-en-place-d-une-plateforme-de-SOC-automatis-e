@@ -40,3 +40,8 @@ Figure 4 : Statut Master du pfSense1 dans la configuration HA
 
 [Statut Master du pfSense1 dans la configuration HA](../images/network_configuration/PfSense1%20comme%20Master.png)
 
+Contrairement à pfSense1, le pare-feu pfSense2 est correctement configuré en tant que noeud secondaire Backup dans la solution de haute disponibilité, comme illustré dans la figure 5.
+
+Figure 5: Statut Backup du pfSense2 dans la configuration HA
+
+[Statut Backup du pfSense2 dans la configuration HA](../images/network_configuration/pfSense2%20comme%20Backup.png)
