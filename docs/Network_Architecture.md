@@ -27,5 +27,5 @@ Après la réalisation et la configuration de notre maquette, la validation fonc
 Ces figures illustrent respectivement le déroulement et les résultats de ce test de connectivité, confirmant le bon fonctionnement des liens et des configurations réseau en place.
 
 Figure 1 : Architecture réseau réseau cible
-[Accéder à l’Architecture Réseau](../images/network_configuration/ConnectionPC1versPC3.png)
+[Accéder à l’Architecture Réseau](../images/network_configuration/Connection%20PC1versPC3.png)
 
