@@ -19,4 +19,5 @@ Nous détaillerons ensuite les composants principaux et les configurations assoc
 conformité aux objectifs du projet.
 
 [Accéder à l’Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)
+
 Figure 1 : Maquette réseau cible
