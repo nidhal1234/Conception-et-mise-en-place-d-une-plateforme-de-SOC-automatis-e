@@ -32,5 +32,4 @@ Figure 2 : Test de connectivité de PC1 vers PC3
 
 Figure 3 : Test de connectivité de PC4 vers PC2
 
-
-
+[Test de connectivité de PC1 vers PC3](../images/network_configuration/Connection%20de%20PC4%20vers%20PC2.png)
