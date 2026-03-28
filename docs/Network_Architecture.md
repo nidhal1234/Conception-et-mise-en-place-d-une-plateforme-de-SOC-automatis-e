@@ -11,4 +11,4 @@ de filtrage granulaires, l’application de politiques d’accès rigoureuses, e
 de détection et de prévention des intrusions (IDS/IPS) grâce à des modules tels que Snort ou Suricata.
 Sa flexibilité, sa stabilité et sa capacité à s’adapter à des architectures complexes en font un choix
 particulièrement pertinent pour renforcer la posture de sécurité de l’infrastructure.
-<img width="1282" height="675" alt="Architecture Réseau" src="https://github.com/user-attachments/assets/9943179c-cbf0-4060-b900-acb0316583b8" />
+
