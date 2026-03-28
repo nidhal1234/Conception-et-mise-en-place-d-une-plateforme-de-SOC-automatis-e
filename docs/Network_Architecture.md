@@ -13,3 +13,4 @@ Sa flexibilité, sa stabilité et sa capacité à s’adapter à des architectur
 particulièrement pertinent pour renforcer la posture de sécurité de l’infrastructure.
 
 [Voir Architecture Réseau](../images/network_configuration/Architecture Réseau.png)
+[Voir Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)
