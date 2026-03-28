@@ -33,3 +33,8 @@ Figure 2 : Test de connectivité de PC1 vers PC3
 Figure 3 : Test de connectivité de PC4 vers PC2
 
 [Test de connectivité de PC4 vers PC2](../images/network_configuration/Connection%20de%20PC4%20vers%20PC2.png)
+
+La figure 4 illustre clairement que pfSense1 est correctement configuré et opérationnel en tant que pare-feu maître Master.
+
+
+
