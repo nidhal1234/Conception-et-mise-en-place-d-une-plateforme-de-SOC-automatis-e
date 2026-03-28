@@ -28,7 +28,7 @@ Ce tableau présente la répartition des sous-réseaux et l’affectation des ad
 
 Figure 2 : Plan d'adressage de l'architecture réseau
 
-[Plan d'adressage réseau](../images/network_configuration/Plan%20d'adressage.png)
+[Plan d'adressage de l'architecture réseau](../images/network_configuration/Plan%20d'adressage.png)
 
 Ces figures illustrent respectivement le déroulement et les résultats de ce test de connectivité, confirmant le bon fonctionnement des liens et des configurations réseau en place.
 
