@@ -12,4 +12,4 @@ de détection et de prévention des intrusions (IDS/IPS) grâce à des modules t
 Sa flexibilité, sa stabilité et sa capacité à s’adapter à des architectures complexes en font un choix
 particulièrement pertinent pour renforcer la posture de sécurité de l’infrastructure.
 
-[![Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)](../images/network_configuration/Architecture%20Réseau.png)
+[Accéder à l’Architecture Réseau](../images/network_configuration/Architecture%20Réseau.png)
