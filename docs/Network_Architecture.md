@@ -27,5 +27,6 @@ Après la réalisation et la configuration de notre maquette, la validation fonc
 Ces figures illustrent respectivement le déroulement et les résultats de ce test de connectivité, confirmant le bon fonctionnement des liens et des configurations réseau en place.
 
 Figure 2 : Test de connectivité de PC1 vers PC3
-[Test de connectivité de PC1 vers PC](../images/network_configuration/ConnectionPC1vers%20PC3.png)
+
+[Test de connectivité de PC1 vers PC](../images/network_configuration/ConnectionPC1_vers_PC3.png)
 
