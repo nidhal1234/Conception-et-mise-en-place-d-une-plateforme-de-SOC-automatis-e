@@ -36,5 +36,7 @@ Figure 3 : Test de connectivité de PC4 vers PC2
 
 La figure 4 illustre clairement que pfSense1 est correctement configuré et opérationnel en tant que pare-feu maître Master.
 
+Figure 4 : Statut Master du pfSense1 dans la configuration HA
 
+[Statut Master du pfSense1 dans la configuration HA](../images/network_configuration/PfSense1%20comme%20Master.png)
 
