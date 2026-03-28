@@ -28,5 +28,5 @@ Ces figures illustrent respectivement le déroulement et les résultats de ce te
 
 Figure 2 : Test de connectivité de PC1 vers PC3
 
-[Test de connectivité de PC1 vers PC3](../images/network_configuration/Connection_PC1_vers_PC3.png)
+[Test de connectivité de PC1 vers PC3](../images/network_configuration/Connection%20PC1%20vers%20PC3.png)
 
