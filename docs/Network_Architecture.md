@@ -52,7 +52,7 @@ Figure 6 : Connexion de PC1 à Ubuntu Server
 
 [Connexion de PC1 à Ubuntu Server](../images/network_configuration/Connexion%20de%20PC1%20à%20Ubuntu%20Server.png)
 
-Cette figure illustre le succès de la connectivité depuis un hôte du VLAN 10 PC1 vers internet.
+La figure qui suit illustre le succès de la connectivité depuis un hôte du VLAN 10 PC1 vers internet.
 
 Figure 7 : Connexion de PC1 à Internet
 
@@ -68,4 +68,4 @@ Cette figure illustre la réussite de la connectivité de la VM Ubuntu Server ve
 
 Figure 9 : Connexion de Ubuntu Server à Internet
 
-[Connexion de PC3 à Internet](../images/network_configuration/Connexion%20de%20Ubuntu%20Server%20à%20Internet.png)
+[Connexion de Ubuntu Server à Internet](../images/network_configuration/Connexion%20de%20Ubuntu%20Server%20à%20Internet.png)
