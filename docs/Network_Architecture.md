@@ -62,4 +62,4 @@ La figure 8 illustre le succès de la connectivité depuis un hôte du VLAN 20 P
 
 Figure 8 : Connexion de PC3 à Internet
 
-[Connexion de PC3 à Internet](../images/network_configuration/Connection%20PC2%20de%20VLAN%20200%20à%20internet.png)
+[Connexion de PC3 à Internet](../images/network_configuration/Connection%20de%20PC3%20de%20VLAN20%20à%20internet.png)
