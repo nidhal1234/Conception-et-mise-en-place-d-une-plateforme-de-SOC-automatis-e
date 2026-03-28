@@ -58,8 +58,8 @@ Figure 7 : Connexion de PC1 à Internet
 
 [Connexion de PC1 à Internet](../images/network_configuration/Connection%20PC1%20de%20VLAN%2010%20à%20internet.png)
 
-La figure 8 illustre le succès de la connectivité depuis un hôte du VLAN 20 vers internet.
+La figure 8 illustre le succès de la connectivité depuis un hôte du VLAN 20 PC3 vers internet.
 
 Figure 8 : Connexion de PC3 à Internet
 
-[Connexion de PC1 à Internet](../images/network_configuration/Connection%20PC2%20de%20VLAN%20200%20à%20internet.png)
+[Connexion de PC3 à Internet](../images/network_configuration/Connection%20PC2%20de%20VLAN%20200%20à%20internet.png)
