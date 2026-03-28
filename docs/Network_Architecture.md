@@ -42,7 +42,7 @@ Figure 4 : Statut Master du pfSense1 dans la configuration HA
 
 Contrairement à pfSense1, le pare-feu pfSense2 est correctement configuré en tant que noeud secondaire Backup dans la solution de haute disponibilité, comme illustré dans la figure 5.
 
-Figure 5: Statut Backup du pfSense2 dans la configuration HA
+Figure 5 : Statut Backup du pfSense2 dans la configuration HA
 
 [Statut Backup du pfSense2 dans la configuration HA](../images/network_configuration/pfSense2%20comme%20Backup.png)
 
@@ -57,3 +57,7 @@ La figure 7 illustre le succès de la connectivité depuis un hôte du VLAN 10 P
 Figure 7 : Connexion de PC1 à Internet
 
 [Connexion de PC1 à Internet](../images/network_configuration/Connection%20PC1%20de%20VLAN%2010%20à%20internet.png)
+
+La figure 8 illustre le succès de la connectivité depuis un hôte du VLAN 20 vers internet.
+
+
