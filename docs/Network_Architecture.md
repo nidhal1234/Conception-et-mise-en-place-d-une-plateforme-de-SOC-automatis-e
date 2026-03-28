@@ -26,9 +26,9 @@ Après la réalisation et la configuration de notre maquette, la validation fonc
 
 Ce tableau présente la répartition des sous-réseaux et l’affectation des adresses aux différents équipements de la maquette.
 
-Figure 2 :Plan d'adressage de l'architecture réseau
+Figure 2 : Plan d'adressage de l'architecture réseau
 
-[Architecture Réseau](../images/network_configuration/Plan%20d'adressage.png)
+[Plan d'adressage](../images/network_configuration/Plan%20d'adressage.png)
 
 Ces figures illustrent respectivement le déroulement et les résultats de ce test de connectivité, confirmant le bon fonctionnement des liens et des configurations réseau en place.
 
