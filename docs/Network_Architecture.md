@@ -48,3 +48,7 @@ Figure 5: Statut Backup du pfSense2 dans la configuration HA
 
 La figure 6 illustre le succès de la connectivité établie entre un hôte du VLAN 10 et un hôte
 du VLAN 77, confirmant ainsi l’efficacité de la configuration mise en place.
+
+Figure 6 : Connexion de PC1 à Ubuntu Server
+
+[Connexion de PC1 à Ubuntu Server](../images/network_configuration/Connexion%20de%20PC1%20à%20Ubuntu%20Server.png)
