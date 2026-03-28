@@ -1,4 +1,4 @@
-Dans cette section, nous procédons à la mise en oeuvre de l’infrastructure réseau cible, telle
+Dans cette partie, nous procédons à la mise en oeuvre de l’infrastructure réseau cible, telle
 qu’elle a été définie lors de la phase de conception. Cette étape vise à concrétiser l’architecture théorique
 en déployant une infrastructure opérationnelle, structurée autour d’équipements réseau configurés selon
 les exigences de performance, de disponibilité et de sécurité. Elle constitue la base technique du projet
