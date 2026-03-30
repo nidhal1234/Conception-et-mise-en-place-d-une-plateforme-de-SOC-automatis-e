@@ -2,3 +2,7 @@ Dans cette partie, nous avons intégré l’outil de supervision Zabbix dans not
 
 La figure qui suit illustre l’amélioration de notre architecture réseau grâce à l’intégration du serveur Zabbix.
 Figure 1 : [Intégration du serveur Zabbix dans l’architecture réseau](../images/network_monitoring/Intégration%20du%20serveur%20Zabbix%20dans%20l’architecture%20réseau.png)
+
+Ces figures illustrent la surveillance effective des commutateurs à partir de l’interface
+Zabbix, réalisée via le protocole SNMP.
+
