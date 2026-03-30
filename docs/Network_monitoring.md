@@ -6,4 +6,6 @@ Figure 1 : [Intégration du serveur Zabbix dans l’architecture réseau](../ima
 Ces figures illustrent la surveillance effective des commutateurs à partir de l’interface
 Zabbix, réalisée via le protocole SNMP.
 
-Figure 2 : [Intégration du serveur Zabbix dans l’architecture réseau](../images/network_monitoring/Intégration%20du%20serveur%20Zabbix%20dans%20l’architecture%20réseau.png)
+Figure 2 : [Surveillance des commutateurs ESW1, ESW2, ESW3 avec Zabbix](../images/network_monitoring/Surveillance%20des%20commutateurs%20ESW1,%20ESW2,%20ESW3%20avecZabbix.png)
+
+Figure 3 : [Surveillance des commutateurs ESW4, ESW5, ESW6 avec Zabbix] (../images/network_monitoring/Surveillance%20des%20commutateurs%20ESW1,%20ESW2,%20ESW3%20avecZabbix.png)
