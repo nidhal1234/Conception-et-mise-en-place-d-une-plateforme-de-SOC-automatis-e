@@ -38,6 +38,7 @@ Le résultat de la supervision réalisée via Zabbix met en évidence l’évolu
 
 Figure 8 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitoring%20du%20Serveur%20Ubuntu.png)
 
+Cette figure illustre le résultat de la supervision réalisée de la machine virtuelle Windows 10
 
-
+Figure 9 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitoring%20du%20Serveur%20Ubuntu.png)
 
