@@ -27,7 +27,7 @@ Dans cette phase, nous avons mis en oeuvre la configuration nécessaire pour per
 La figure qui suit illustre avec succès l’état de la surveillance, confirmant la réception et l’analyse
 des traps SNMP émis par les dispositifs pfSense.
 
-Figure 6 : [Surveillance des routeurs R1 et R2 avec Zabbix](../images/network_monitoring/Surveillance%20des%20routeurs%20R1%20et%20R2%20avec%20Zabbix.png)
+Figure 6 : [Surveillance des pare-feux avec Zabbix](../images/network_monitoring/Surveillance%20des%20pare-feux%20avec%20Zabbix.png)
 
 
 
