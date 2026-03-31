@@ -40,5 +40,5 @@ Figure 8 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitori
 
 Cette figure illustre le résultat de la supervision réalisée de la machine virtuelle Windows 10
 
-Figure 9 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitoring%20du%20Serveur%20Ubuntu.png)
+Figure 9 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitoring%20du%20systèmeWindows%2010.png)
 
