@@ -40,5 +40,5 @@ Figure 8 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitori
 
 Cette figure illustre le résultat de la supervision réalisée via Zabbix sur la machine virtuelle Windows 10.
 
-Figure 9 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitoring%20du%20systèmeWindows%2010.png)
+Figure 9 : [Supervision du système Windows 10](../images/network_monitoring/Monitoring%20du%20systèmeWindows%2010.png)
 
