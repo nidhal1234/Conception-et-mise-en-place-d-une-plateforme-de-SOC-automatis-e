@@ -13,7 +13,7 @@ Figure 3 : [Surveillance des commutateurs ESW4, ESW5, ESW6 avec Zabbix](../image
 Ces figures présentent la surveillance du trafic réseau des interfaces du commutateur
 ESW4 via Zabbix
 
-
+Figure 4 : [Surveillance des commutateurs ESW1, ESW2, ESW3 avec Zabbix](../images/network_monitoring/Surveillance%20des%20interfaces%20Gi00%20et%20Gi01%20de%20commutateur%20ESW4%20avec%20Zabbix.png)
 
 
 
