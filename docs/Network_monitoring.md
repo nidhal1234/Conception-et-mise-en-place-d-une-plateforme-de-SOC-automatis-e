@@ -10,7 +10,7 @@ Figure 2 : [Surveillance des commutateurs ESW1, ESW2, ESW3 avec Zabbix](../image
 
 Figure 3 : [Surveillance des commutateurs ESW4, ESW5, ESW6 avec Zabbix](../images/network_monitoring/Surveillance%20des%20commutateurs%20ESW4,%20ESW5,%20ESW6%20avec%20Zabbix.png)
 
-Ces figures présentent la surveillance du trafic réseau des interfaces du commutateur
+Les figures qui suivent présentent la surveillance du trafic réseau des interfaces du commutateur
 ESW4 via Zabbix
 
 Figure 4 : [Surveillance des interfaces Gi0/0 et Gi0/1 de commutateur ESW4 avec Zabbix](../images/network_monitoring/Surveillance%20des%20interfaces%20Gi00%20et%20Gi01%20de%20commutateur%20ESW4%20avec%20Zabbix.png)
@@ -20,4 +20,4 @@ Figure 5 : [Surveillance des interfaces Gi0/2 et Gi0/3 de commutateur ESW4 avec 
 La figure qui suit illustre la surveillance effective des routeurs à partir de l’interface Zabbix, réalisée
 via le protocole SNMP.
 
-Figure 5 : [Surveillance des routeurs R1 et R2 avec Zabbix](../images/network_monitoring/Surveillance%20des%20routeurs%20R1%20et%20R2%20avec%20Zabbix.png)
+Figure 6 : [Surveillance des routeurs R1 et R2 avec Zabbix](../images/network_monitoring/Surveillance%20des%20routeurs%20R1%20et%20R2%20avec%20Zabbix.png)
