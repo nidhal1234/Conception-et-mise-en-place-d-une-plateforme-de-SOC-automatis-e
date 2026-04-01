@@ -5,3 +5,7 @@ avons élaboré l’architecture finale de notre projet comme suit :
 
 Figure 1 : [Architecture SOC proposée](../images/SOC/Architecture%20SOC%20Proposée.jpg)
 
+Voici l’amélioration significative de la sécurité de notre architecture réseau grâce à l’intégration
+du système SOC. Ce renforcement est illustré dans la figure 2.
+
+Figure 1 : [Architecture SOC proposée](../images/SOC/Architecture%20SOC%20Proposée.jpg)
