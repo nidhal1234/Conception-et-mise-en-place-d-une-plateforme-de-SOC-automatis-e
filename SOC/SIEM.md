@@ -3,4 +3,4 @@ Dans cette phase, nous avons procédé au déploiement des agents Wazuh sur deux
 Cette figure présente la liste des agents visibles depuis l’interface de gestion Wazuh, confirmant
 leur ajout réussi et leur communication active avec le serveur.
 
-images/SOC/Agents de Wazuh.png
+Figure 1 : [Agents de Wazuh](../images/SOC/Agents%20de%20Wazuh.png)
