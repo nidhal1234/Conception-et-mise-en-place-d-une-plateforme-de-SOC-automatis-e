@@ -8,4 +8,5 @@ Figure 1 : [Architecture SOC proposée](../images/SOC/Architecture%20SOC%20Propo
 Voici l’amélioration significative de la sécurité de notre architecture réseau grâce à l’intégration
 du système SOC. Ce renforcement est illustré dans la figure 2.
 
-Figure 1 : [Architecture SOC proposée](../images/SOC/Architecture%20SOC%20Proposée.jpg)
+Figure 1 : [Architecture réseau sécurisée avec SOC](../images/SOC/Architecture%20réseau%20sécurisée%20avec%20SOC.png)
+
