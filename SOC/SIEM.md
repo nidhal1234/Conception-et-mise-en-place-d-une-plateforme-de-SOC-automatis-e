@@ -21,3 +21,9 @@ Cette figure illustre les techniques MITRE ATT&CK associées aux activités obse
 Figure 4 : [MITRE ATT&CK pour Ubuntu](../images/SOC/MITRE%20ATT&CK%20pour%20Ubuntu.png)
 
 Pour appliquer efficacement la surveillance Wazuh aux pare-feux pfSense, il est impératif de configurer ces derniers afin qu’ils transmettent leurs journaux d’activité au serveur Wazuh. Cette opération repose sur l’activation de l’option de journalisation distante (Remote Logging) dans l’interface d’administration de pfSense, en spécifiant l’adresse IP du serveur Wazuh comme destination. Les logs sont envoyés via le protocole UDP, généralement sur le port 514, ce qui permet au serveur de centraliser et d’analyser les événements de sécurité générés par les pare-feux en temps réel. Cette configuration constitue la première étape essentielle pour une supervision complète et continue de l’activité réseau filtrée par pfSense.
+
+Cette figure montre la surveillance effective de pfSense1 via le serveur Wazuh.
+
+
+
+
