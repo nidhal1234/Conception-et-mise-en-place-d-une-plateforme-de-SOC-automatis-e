@@ -4,7 +4,7 @@ Cette figure présente la liste des agents visibles depuis l’interface de gest
 
 Figure 1 : [Agents de Wazuh](../images/SOC/Agents%20de%20Wazuh.png)
 
-La figure qui suit nous montre que le serveur Wazuh commence à intercepter les journaux et les alertes des différents niveau à partir de l’agent Windows.
+La figure suivante nous montre que le serveur Wazuh commence à intercepter les journaux et les alertes des différents niveau à partir de l’agent Windows.
 
 Figure 2 : [Les logs de la machine Windows](../images/SOC/Les%20logs%20de%20la%20machine%20Windows.png)
 
@@ -12,7 +12,7 @@ Cette figure nous montre que le serveur Wazuh commence à intercepter les journa
 
 Figure 3 : [Les logs de la machine Ubuntu](../images/SOC/Les%20logs%20de%20la%20machine%20Ubuntu.png)
 
-La figure qui suit illustre les techniques MITRE ATT&CK associées aux activités observées sur la machine Windows 10.
+La figure suivante illustre les techniques MITRE ATT&CK associées aux activités observées sur la machine Windows 10.
 
 Figure 4 : [MITRE ATT&CK pour Windows](../images/SOC/MITRE%20ATT&CK%20pour%20Windows.png)
 
@@ -26,3 +26,4 @@ Cette figure montre la surveillance effective de pfSense1 via le serveur Wazuh.
 
 Figure 6 : [Surveillance de pfSense1 via Wazuh](../images/SOC/Surveillance%20de%20pfSense1%20via%20Wazuh.png)
 
+La figure suivante montre la surveillance effective de pfSense2 via le serveur Wazuh.
