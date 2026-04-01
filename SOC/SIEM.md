@@ -2,3 +2,5 @@ La sécurité de notre architecture réseau repose sur la mise en place d’une 
 
 Après une étude approfondie et la sélection des outils nécessaires pour notre solution SOC, nous
 avons élaboré l’architecture finale de notre projet comme suit :
+
+Figure 1 : [Architecture Réseau cible](../images/network_configuration/Architecture%20Réseau.png)
