@@ -15,3 +15,7 @@ Figure 3 : [Les logs de la machine Ubuntu](../images/SOC/Les%20logs%20de%20la%20
 La figure qui suit illustre les techniques MITRE ATT&CK associées aux activités observées sur la machine Windows 10.
 
 Figure 4 : [MITRE ATT&CK pour Windows](../images/SOC/MITRE%20ATT&CK%20pour%20Windows.png)
+
+Cette figure illustre les techniques MITRE ATT&CK associées aux activités observées sur la machine Ubuntu.
+
+Figure 4 : [MITRE ATT&CK pour Ubuntu](../images/SOC/MITRE%20ATT&CK%20pour%20Ubuntu.png)
