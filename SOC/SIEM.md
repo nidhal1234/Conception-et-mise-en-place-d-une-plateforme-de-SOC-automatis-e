@@ -11,3 +11,7 @@ Figure 2 : [Les logs de la machine Windows](../images/SOC/Les%20logs%20de%20la%2
 Cette figure nous montre que le serveur Wazuh commence à intercepter les journaux et les alertes des diffèrents niveaux à partir de l’agent Ubuntu.
 
 Figure 3 : [Les logs de la machine Ubuntu](../images/SOC/Les%20logs%20de%20la%20machine%20Ubuntu.png)
+
+La figure qui suit illustre les techniques MITRE ATT&CK associées aux activités observées sur la machine Windows 10.
+
+Figure 4 : [MITRE ATT&CK pour Windows](../images/SOC/MITRE%20ATT&CK%20pour%20Windows.png)
