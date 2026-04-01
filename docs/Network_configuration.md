@@ -4,9 +4,7 @@ stratégique en tant que point central de contrôle des flux réseau. Il permet 
 Sa flexibilité, sa stabilité et sa capacité à s’adapter à des architectures complexes en font un choix
 particulièrement pertinent pour renforcer la posture de sécurité de l’infrastructure.
 
-Cette figure présente l’architecture détaillée de la maquette réseau cible, servant de base à la
-phase de déploiement et de configuration. Cette illustration met en évidence les équipements clés, leurs
-interconnexions, ainsi que la segmentation du réseau prévue pour garantir performance et sécurité.
+Cette figure présente l’architecture détaillée de la maquette réseau cible, servant de base à la phase de déploiement et de configuration. Cette illustration met en évidence les équipements clés, leurs interconnexions, ainsi que la segmentation du réseau prévue pour garantir performance et sécurité.
 Nous détaillerons ensuite les composants principaux et les configurations associées pour assurer la
 conformité aux objectifs du projet.
 
