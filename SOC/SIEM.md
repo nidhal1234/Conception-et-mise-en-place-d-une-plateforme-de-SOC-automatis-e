@@ -7,3 +7,6 @@ Figure 1 : [Agents de Wazuh](../images/SOC/Agents%20de%20Wazuh.png)
 La figure qui suit nous montre que le serveur Wazuh commence à intercepter les journaux et les alertes des différents niveau à partir de l’agent Windows.
 
 Figure 2 : [Les logs de la machine Windows](../images/SOC/Les%20logs%20de%20la%20machine%20Windows.png)
+
+Cette figure nous montre que le serveur Wazuh commence à intercepter les journaux et les alertes des diffèrents niveaux à partir de l’agent Ubuntu.
+
