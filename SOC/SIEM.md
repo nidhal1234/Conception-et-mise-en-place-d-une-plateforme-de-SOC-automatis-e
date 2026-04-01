@@ -1,1 +1,1 @@
-
+Dans cette phase, nous avons procédé au déploiement des agents Wazuh sur deux machines virtuelles de notre maquette réseau, à savoir Ubuntu Server et Windows 10. Cette opération a permis d’assurer la collecte, la remontée et la centralisation des journaux d’activité et des événements de sécurité générés par ces hôtes, en les rattachant au serveur Wazuh principal pour un suivi en temps réel.
