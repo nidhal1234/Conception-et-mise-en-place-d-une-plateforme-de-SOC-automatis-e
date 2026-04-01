@@ -27,3 +27,5 @@ Cette figure montre la surveillance effective de pfSense1 via le serveur Wazuh.
 Figure 6 : [Surveillance de pfSense1 via Wazuh](../images/SOC/Surveillance%20de%20pfSense1%20via%20Wazuh.png)
 
 La figure suivante montre la surveillance effective de pfSense2 via le serveur Wazuh.
+
+Figure 7 : [Surveillance de pfSense2 via Wazuh](../images/SOC/Surveillance%20de%20pfSense2%20via%20Wazuh.png)
