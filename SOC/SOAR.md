@@ -71,3 +71,6 @@ Nous avons monté le répertoire de configuration dans le conteneur TheHive afin
 
 Figure 13 : [Intégration de TheHive et MISP](../images/SOC/Intégration%20de%20TheHive%20et%20MISP.jpg)
 
+Comme le montre la figure 4.42, nous avons réussi à intégrer Cortex et MISP avec succès dans TheHive, ce qui confirme la bonne configuration des connexions entre ces plateformes.
+
+
