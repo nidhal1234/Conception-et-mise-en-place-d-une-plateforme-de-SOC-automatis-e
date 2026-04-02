@@ -8,3 +8,4 @@ Figure 1 : [Intégration de la machine Kali Linux dans la maquette](../images/Te
 
 Après l’intégration de la machine Kali Linux en tant que poste d’attaque au sein du VLAN 10, nous avons procédé à une simulation d’attaque par force brute ciblant le serveur Ubuntu placé dans le VLAN 77. Pour ce test, l’outil Hydra a été utilisé afin de tenter des connexions SSH en s’appuyant sur deux dictionnaires : l’un contenant une liste d’identifiants users.txt et l’autre une série de mots de passe passwords.txt, comme le montre la figure suivante.
 
+Figure 2 : [Attaque par force brute](../images/Test/Attaque%20par%20force%20brute.png)
