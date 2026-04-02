@@ -39,7 +39,7 @@ Figure 6 : [Ajout de l’analyseur VirusTotal](../images/SOC/Ajout%20de%20l’an
   
 AbuseIPDB est une plateforme dédiée à la lutte contre les activités malveillantes sur Internet, telles que les attaques de pirates, le spam et autres comportements abusifs. Elle permet de signaler une adresse IP associée à une activité suspecte, ainsi que de vérifier la réputation d’une adresse IP via son moteur de recherche. L’intégration de ce service au sein de la plateforme Cortex est présentée dans la figure suivante.
 
-
+Figure 6 : [Ajout de l’analyseur AbuseIPDB](../images/SOC/Ajout%20de%20l’analyseur%20AbuseIPDB.png)
 
 
 
