@@ -19,7 +19,9 @@ L’accès à l’interface graphique de Cortex a été configuré avec succès 
 
 Figure 3 : [Interface graphique de Cortex](../images/SOC/Interface%20graphique%20de%20Cortex.png)
 
-L’étape suivante a consisté à créer un utilisateur dans Cortex, puis à lui attribuer les permissions requises afin d’assurer une gestion complète de la plateforme, comme illustré dans la figure suivante.
+L’étape suivante a consisté à créer un utilisateur au niveau de Cortex, puis à lui attribuer les permissions requises afin d’assurer une gestion complète de la plateforme, comme illustré dans la figure suivante.
 
-Figure 3 : [Interface graphique de Cortex](../images/SOC/Interface%20graphique%20de%20Cortex.png)
+Figure 4 : [Création d’un utilisateur au niveau de Cortex](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20Cortex.png)
+
+
 
