@@ -6,4 +6,4 @@ Afin de créer et lancer les conteneurs, nous avons utilisé la commande docker 
 
 Voila l’interface graphique de la plateforme MISP est accessible via un navigateur web, comme illustré dans la figure suivante, confirmant ainsi le bon déploiement du service.
 
-Figure 1 : [Agents de Wazuh](../images/SOC/Interface%20graphique%20de%20MISP.png)
+Figure 1 : [Interface graphique de MISP](../images/SOC/Interface%20graphique%20de%20MISP.png)
