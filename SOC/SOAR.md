@@ -61,6 +61,6 @@ Figure 10 : [Création d’un utilisateur au niveau de TheHive](../images/SOC/Cr
 
 L’intégration de TheHive avec Cortex a été préalablement définie lors de la configuration du conteneur TheHive, en spécifiant les paramètres nécessaires à la communication, notamment le port d’écoute et la clé API de Cortex, comme illustré dans la figure suivante.
 
-
+Figure 10 : [Intégration de TheHive et Cortex](../images/SOC/Intégration%20de%20TheHive%20et%20Cortex.jpg)
 
 Pour intégrer TheHive avec MISP, un répertoire de configuration spécifique a été créé, contenant l’URL du serveur MISP, la clé API et l’identifiant de l’organisation. Ce répertoire a ensuite été monté dans le conteneur TheHive, assurant une intégration fluide et sécurisée. La figure suivante illustre cette configuration.
