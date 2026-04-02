@@ -3,4 +3,5 @@ Notre architecture est désormais en place, avec l’ensemble des outils correct
 * Scénario de test 1 : Attaque par force brute
   
 Pour simuler une attaque par force brute, la machine PC1 a été temporairement remplacée par une machine Kali Linux. Celle-ci a permis de réaliser des tests de pénétration ciblés dans un environnement contrôlé, en respectant la segmentation réseau de la maquette. La figure suivante illustre l’intégration de Kali Linux au sein de notre architecture réseau.
-images/Test/Intégration de la machine Kali Linux dans la maquette.jpg
+
+Figure 1 : [Intégration de la machine Kali Linux dans la maquette](../images/Test/Intégration%20de%20la%20machine%20Kali%20Linux%20dans%20la%20maquette.jpg)
