@@ -17,3 +17,8 @@ Figure 3 : [Attaque par force brute](../images/Test/Alerte%20d’attaque%20sur%2
 Dès la détection de l’alerte par Wazuh, une alerte correspondante a été automatiquement créée dans TheHive, comme indiqué dans la figure suivante.
 
 Figure 4 : [Alerte de l’attaque par force brute créée](../images/Test/Alerte%20de%20l’attaque%20par%20force%20brute%20créée.jpg)
+
+Une fois l’alerte transmise à TheHive, nous l’avons ouverte afin d’en analyser les éléments
+contextuels.
+
+La figure suivante illustre les informations générales associées à cette attaque telles qu’affichées dans l’interface de TheHive
