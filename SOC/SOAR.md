@@ -55,4 +55,4 @@ Figure 9 : [Interface graphique de TheHive](../images/SOC/Interface%20graphique%
 
 L’étape suivante a consisté à créer un compte administrateur associé à l’organisation précédemment configurée, comme illustré dans cette figure.
 
-
+Figure 9 : [Création d’un utilisateur au niveau de TheHive](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20TheHive.png)
