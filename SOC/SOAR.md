@@ -23,5 +23,4 @@ L’étape suivante a consisté à créer un utilisateur au niveau de Cortex, pu
 
 Figure 4 : [Création d’un utilisateur au niveau de Cortex](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20Cortex.png)
 
-
-
+Intégration de Cortex et MISP
