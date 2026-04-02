@@ -21,4 +21,4 @@ Figure 4 : [Alerte de l’attaque par force brute créée](../images/Test/Alerte
 Une fois l’alerte transmise à TheHive, nous l’avons ouverte afin d’en analyser les éléments
 contextuels.
 
-La figure suivante illustre les informations générales associées à cette attaque telles qu’affichées dans l’interface de TheHive
+La figure suivante illustre les informations générales associées à cette attaque telles qu’affichées dans l’interface de TheHive.
