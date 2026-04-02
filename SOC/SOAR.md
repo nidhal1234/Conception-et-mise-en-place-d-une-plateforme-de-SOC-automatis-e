@@ -77,5 +77,8 @@ Figure 14 : [Plateformes intégrées](../images/SOC/Plateformes%20intégrées.pn
 
 * Intégration de SOAR et SIEM
 
-  
+Dans cette phase, nous avons intégré TheHive avec Wazuh afin de permettre une collaboration efficace entre le SOAR et le SIEM. Cette intégration automatise le traitement des alertes générées par Wazuh, optimisant la gestion des incidents de sécurité. Pour ce faire, le module TheHive4py a été installé sur le serveur Wazuh, assurant une communication fluide entre les deux plateformes. La figure suivante illustre cette configuration.
+
+
+
 
