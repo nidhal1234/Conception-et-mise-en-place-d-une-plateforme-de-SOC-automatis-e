@@ -73,4 +73,5 @@ Figure 13 : [Intégration de TheHive et MISP](../images/SOC/Intégration%20de%20
 
 Comme le montre la figure 4.42, nous avons réussi à intégrer Cortex et MISP avec succès dans TheHive, ce qui confirme la bonne configuration des connexions entre ces plateformes.
 
+Figure 14 : [Plateformes intégrées](../images/SOC/Plateformes%20intégrées.png)
 
