@@ -52,3 +52,7 @@ L’interface Web de TheHive est désormais accessible via le port 9000, comme i
 
 
 Figure 9 : [Interface graphique de TheHive](../images/SOC/Interface%20graphique%20de%20TheHive.png)
+
+L’étape suivante a consisté à créer un compte administrateur associé à l’organisation précédemment configurée, comme illustré dans cette figure.
+
+
