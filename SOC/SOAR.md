@@ -50,3 +50,5 @@ Figure 8 : [Test des analyseurs](../images/SOC/Test%20des%20analyseurs.jpg)
 Nous avons intégré dans notre fichier Docker Compose la configuration des conteneurs requis pour assurer un déploiement optimal de la plateforme TheHive et de ses services associés.
 L’interface Web de TheHive est désormais accessible via le port 9000, comme illustré dans la figure suivante.
 
+
+Figure 9 : [Interface graphique de TheHive](../images/SOC/Interface%20graphique%20de%20TheHive.png)
