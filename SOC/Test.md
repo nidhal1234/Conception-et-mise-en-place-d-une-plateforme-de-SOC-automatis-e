@@ -13,3 +13,6 @@ Figure 2 : [Attaque par force brute](../images/Test/Attaque%20par%20force%20brut
 Suite au lancement réussi de l’attaque par force brute, une alerte a été immédiatement générée et reçue sur la plateforme Wazuh. Cette alerte détaille notamment l’adresse IP de la machine cible ainsi que celle de la machine attaquante, ainsi que le port réseau exploité lors de l’attaque, comme l’illustre la figure suivante.
 
 Figure 3 : [Attaque par force brute](../images/Test/Alerte%20d’attaque%20sur%20Wazuh.png)
+
+Dès la détection de l’alerte par Wazuh, une alerte correspondante a été automatiquement créée dans TheHive, comme indiqué dans la figure suivante.
+
