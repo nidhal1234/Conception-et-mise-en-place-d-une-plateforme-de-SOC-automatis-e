@@ -30,4 +30,6 @@ La configuration est présentée dans la figure suivante.
 
 Figure 5 : [Intégration de Cortex et MISP](../images/SOC/Intégration%20de%20Cortex%20et%20MISP.png)
 
-Afin d’intégrer l’analyseur VirusTotal au sein de la plateforme Cortex, il est nécessaire de configurer les paramètres requis et d’ajouter la clé API correspondante pour activer l’intégration, comme illustré dans la figure suivante.
+* Intégration de VirusTotal dans Cortex
+
+VirusTotal est un service en ligne permettant d’analyser des fichiers et des URL afin de détecter différents types de menaces, tels que les virus, vers et chevaux de Troie, en s’appuyant sur plusieurs moteurs antivirus. Il permet également d’identifier d’éventuels faux positifs. Dans ce contexte, son intégration au sein de la plateforme Cortex permet d’enrichir les capacités d’analyse et de détection. Afin de mettre en œuvre cette intégration, il est nécessaire de configurer les paramètres requis et d’ajouter la clé API correspondante, comme illustré dans la figure suivante.
