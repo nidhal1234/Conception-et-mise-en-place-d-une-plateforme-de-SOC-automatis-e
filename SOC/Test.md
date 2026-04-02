@@ -27,3 +27,4 @@ Figure 5 : [Aperçu de l’alerte de force brute](../images/Test/Aperçu%20de%20
 
 Le cas comporte l’observable créé, où les résultats des analyseurs de Cortex sont accessibles, comme représenté dans la figure suivante.
 
+Figure 6 : [Observables de l’attaque par force brute](../images/Test/Observables%20de%20l’attaque%20par%20force%20brute.jpg)
