@@ -29,3 +29,5 @@ Nous avons choisi MISP comme analyseur principal pour nos IOCs et configuré son
 La configuration est présentée dans la figure suivante.
 
 Figure 5 : [Intégration de Cortex et MISP](../images/SOC/Intégration%20de%20Cortex%20et%20MISP.png)
+
+Afin d’intégrer l’analyseur VirusTotal au sein de la plateforme Cortex, il est nécessaire de configurer les paramètres requis et d’ajouter la clé API correspondante pour activer l’intégration, comme illustré dans la figure suivante.
