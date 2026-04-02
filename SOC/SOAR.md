@@ -5,3 +5,5 @@ Pour la mise en place de MISP nous avons créé un fichier Docker Compose décri
 Afin de créer et lancer les conteneurs, nous avons utilisé la commande docker compose up, permettant le déploiement des services en arrière-plan.
 
 Voila l’interface graphique de la plateforme MISP est accessible via un navigateur web, comme illustré dans la figure suivante, confirmant ainsi le bon déploiement du service.
+
+images/SOC/Interface graphique de MISP.png
