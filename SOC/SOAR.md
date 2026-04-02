@@ -67,5 +67,7 @@ Pour intégrer TheHive avec MISP, un répertoire de configuration spécifique a 
 
 Figure 12 : [Répertoire d’intégration de TheHive et MISP](../images/SOC/Répertoire%20d’intégration%20de%20TheHive%20et%20MISP.jpg)
 
-Nous avons monté le répertoire de configuration dans le conteneur TheHive afin d’établir
-l’intégration avec la plateforme MISP, comme le montre la figure 4.41
+Nous avons monté le répertoire de configuration dans le conteneur TheHive afin d’établir l’intégration avec la plateforme MISP, comme le montre la figure suivante.
+
+Figure 13 : [Intégration de TheHive et MISP](../images/SOC/Intégration%20de%20TheHive%20et%20MISP.jpg)
+
