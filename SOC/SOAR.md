@@ -17,5 +17,4 @@ Nous avons intégré, dans le fichier Docker Compose, la configuration du conten
 
 L’accès à l’interface graphique de Cortex a été configuré avec succès et est désormais disponible via un navigateur web sur le port 9001, comme présenté dans la figure suivante.
 
-Figure 2 : [Création d’un utilisateur au niveau de MISP](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20MISP.png)
-
+Figure 2 : [Interface graphique de Cortex](../images/SOC/Interface%20graphique%20de%20Cortex.png)
