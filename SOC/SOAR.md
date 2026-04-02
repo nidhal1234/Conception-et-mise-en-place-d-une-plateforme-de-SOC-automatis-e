@@ -11,4 +11,4 @@ Figure 1 : [Interface graphique de MISP](../images/SOC/Interface%20graphique%20d
 Nous avons ensuite créé un compte utilisateur que nous avons configuré avec des privilèges administratifs pour l’organisation, assurant ainsi une gestion complète de la plateforme, comme illustré dans la figure qui suit.
 
 
-Figure 1 : [Interface graphique de MISP](../images/SOC/Interface%20graphique%20de%20MISP.png)
+Figure 1 : [Création d’un utilisateur au niveau de MISP](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20MISP.png)
