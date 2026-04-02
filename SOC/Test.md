@@ -24,3 +24,6 @@ contextuels.
 La figure suivante illustre les informations générales associées à cette attaque telles qu’affichées dans l’interface de TheHive.
 
 Figure 5 : [Aperçu de l’alerte de force brute](../images/Test/Aperçu%20de%20l’alerte%20de%20force%20brute.png)
+
+Le cas comporte l’observable créé, où les résultats des analyseurs de Cortex sont accessibles, comme représenté dans la figure suivante.
+
