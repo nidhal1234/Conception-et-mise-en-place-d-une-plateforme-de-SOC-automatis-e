@@ -22,3 +22,5 @@ Une fois l’alerte transmise à TheHive, nous l’avons ouverte afin d’en ana
 contextuels.
 
 La figure suivante illustre les informations générales associées à cette attaque telles qu’affichées dans l’interface de TheHive.
+
+Figure 5 : [Aperçu de l’alerte de force brute](../images/Test/Aperçu%20de%20l’alerte%20de%20force%20brute.png)
