@@ -27,3 +27,5 @@ Figure 4 : [Création d’un utilisateur au niveau de Cortex](../images/SOC/Cré
 
 Nous avons choisi MISP comme analyseur principal pour nos IOCs et configuré son intégrationvia la clé API et l’URL du serveur, assurant ainsi une communication sécurisée entre les plateformes.
 La configuration est présentée dans la figure suivante.
+
+Figure 5 : [Intégration de Cortex et MISP](../images/SOC/Intégration%20de%20Cortex%20et%20MISP.png)
