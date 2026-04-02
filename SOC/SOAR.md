@@ -89,3 +89,8 @@ Figure 16 : [Intégration de Wazuh et TheHive](../images/SOC/Intégration%20de%2
 Suite à l’intégration réussie entreWazuh et TheHive, la transmission fluide des alertes de sécurité
 a été rendue possible.
 Cette figure illustre des événements générés par Wazuh, automatiquement remontés dans TheHive pour analyse.
+
+Figure 17 : [Alertes TheHive](../images/SOC/Alertes%20TheHive.png)
+
+
+
