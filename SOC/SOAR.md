@@ -81,5 +81,6 @@ Dans cette phase, nous avons intégré TheHive avec Wazuh afin de permettre une 
 
 Figure 15 : [Installation de TheHive4py sur Wazuh](../images/SOC/Installation%20de%20TheHive4py%20sur%20Wazuh.png)
 
-
+Nous avons ensuite procédé à l’intégration de TheHive avec Wazuh en ajoutant l’URL, le port d’écoute de TheHive ainsi que la clé API dans le fichier de configuration deWazuh /var/ossec/etc/ossec.conf,
+comme le montre la figure suivante.
 
