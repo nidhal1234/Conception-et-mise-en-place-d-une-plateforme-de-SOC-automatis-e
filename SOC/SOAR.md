@@ -75,3 +75,7 @@ Comme le montre la figure 4.42, nous avons réussi à intégrer Cortex et MISP a
 
 Figure 14 : [Plateformes intégrées](../images/SOC/Plateformes%20intégrées.png)
 
+* Intégration de SOAR et SIEM
+
+  
+
