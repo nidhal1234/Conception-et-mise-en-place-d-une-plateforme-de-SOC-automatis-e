@@ -65,4 +65,7 @@ Figure 11 : [Intégration de TheHive et Cortex](../images/SOC/Intégration%20de%
 
 Pour intégrer TheHive avec MISP, un répertoire de configuration spécifique a été créé, contenant l’URL du serveur MISP, la clé API et l’identifiant de l’organisation. Ce répertoire a ensuite été monté dans le conteneur TheHive, assurant une intégration fluide et sécurisée. La figure suivante illustre cette configuration.
 
-Figure 11 : [Répertoire d’intégration de TheHive et MISP](../images/SOC/Répertoire%20d’intégration%20de%20TheHive%20et%20MISP.jpg)
+Figure 12 : [Répertoire d’intégration de TheHive et MISP](../images/SOC/Répertoire%20d’intégration%20de%20TheHive%20et%20MISP.jpg)
+
+Nous avons monté le répertoire de configuration dans le conteneur TheHive afin d’établir
+l’intégration avec la plateforme MISP, comme le montre la figure 4.41
