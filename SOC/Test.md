@@ -31,4 +31,6 @@ Figure 6 : [Observables de l’attaque par force brute](../images/Test/Observabl
 
 L’analyseur Cortex a traité l’artefact et généré un rapport d’analyse, dont les résultats sont présentés dans les figures suivantes.
 
+Figure 7 : [Rapport sur Cortex](../images/Test/Rapport%20sur%20Cortex.jpg)
+Figure 8 : [Rapport sur TheHive](../images/Test/Rapport%20sur%20TheHive.jpg)
 
