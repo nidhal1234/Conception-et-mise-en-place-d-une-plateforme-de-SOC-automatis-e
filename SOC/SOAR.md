@@ -17,4 +17,9 @@ Nous avons intégré, dans le fichier Docker Compose, la configuration du conten
 
 L’accès à l’interface graphique de Cortex a été configuré avec succès et est désormais disponible via un navigateur web sur le port 9001, comme présenté dans la figure suivante.
 
-Figure 2 : [Interface graphique de Cortex](../images/SOC/Interface%20graphique%20de%20Cortex.png)
+Figure 3 : [Interface graphique de Cortex](../images/SOC/Interface%20graphique%20de%20Cortex.png)
+
+L’étape suivante a consisté à créer un utilisateur dans Cortex, puis à lui attribuer les permissions requises afin d’assurer une gestion complète de la plateforme, comme illustré dans la figure suivante.
+
+Figure 3 : [Interface graphique de Cortex](../images/SOC/Interface%20graphique%20de%20Cortex.png)
+
