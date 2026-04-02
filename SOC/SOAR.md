@@ -57,5 +57,6 @@ L’étape suivante a consisté à créer un compte administrateur associé à l
 
 Figure 10 : [Création d’un utilisateur au niveau de TheHive](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20TheHive.png)
 
-* Intégration avec Cortex et MISP
-  
+* Intégration de TheHive avec Cortex et MISP
+
+L’intégration de TheHive avec Cortex a été préalablement définie lors de la configuration du conteneur TheHive, en spécifiant les paramètres nécessaires à la communication, notamment le port d’écoute et la clé API de Cortex, comme illustré dans la figure suivante.
