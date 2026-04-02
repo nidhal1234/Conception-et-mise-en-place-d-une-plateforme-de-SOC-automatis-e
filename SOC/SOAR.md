@@ -44,7 +44,7 @@ Figure 7 : [Ajout de l’analyseur AbuseIPDB](../images/SOC/Ajout%20de%20l’ana
 Après l’ajout des analyseurs avec succès, nous avons procédé à un test d’analyse afin de vérifier leur bon fonctionnement. Les résultats obtenus ont été correctement générés et enregistrés dans l’historique des tâches (Job History) de Cortex, comme le montre la figure suivante.
 
 
-Figure 8 : [images/SOC/Test des analyseurs](../images/SOC/Test%20des%20analyseurs.jpg)
+Figure 8 : [Test des analyseurs](../images/SOC/Test%20des%20analyseurs.jpg)
 
 
 
