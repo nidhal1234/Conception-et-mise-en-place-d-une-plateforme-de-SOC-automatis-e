@@ -84,6 +84,10 @@ La figure suivante illustre l’intégration de l’agent Zabbix avec le serveur
 
 Figure 17 : [Intégration de l’agent Zabbix avec le serveur](../images/network_monitoring/Intégration%20de%20l’agent%20Zabbix%20avec%20le%20serveur.png)
 
+Ensuite, nous avons ajouté la machine virtuelle Ubuntu Server au serveur Zabbix afin d’assurer sa supervision, comme le montre la figure suivante.
+
+Figure 18 : [Ajout de Vm Ubuntu au serveur Zabbix](../images/network_monitoring/Ajout%20de%20Vm%20Ubuntu%20au%20serveur%20Zabbix.png)
+
 Le résultat de la supervision réalisée via Zabbix met en évidence l’évolution de l’utilisation de l’espace disque sur la machine virtuelle Ubuntu Server, offrant un suivi précis de la consommation des ressources de stockage et facilitant l’anticipation des besoins futurs, comme le montre la figure qui suit.
 
 
