@@ -57,7 +57,7 @@ Figure 12 : [Configuration du Syslog sur pfSense2](../images/SOC/Configuration%2
 
 Le serveur Wazuh a été configuré pour recevoir les logs syslog des pare-feux pfSense, permettant une collecte centralisée et continue des événements de sécurité. 
 
-La figuresuivante illustre cette configuration.
+La figure suivante illustre cette configuration.
 
 Figure 13 : [Configuration de Syslog sur le serveur Wazuh](../images/SOC/Configuration%20de%20Syslog%20sur%20le%20serveur%20Wazuh.png)
 
