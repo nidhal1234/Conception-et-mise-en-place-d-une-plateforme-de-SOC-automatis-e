@@ -16,3 +16,8 @@ Figure 1 : Architecture réseau cible
 
 Figure 2 : Répartition des sous-réseaux et IP
 
+Tests réalisés pour vérifier la communication entre VLANs et l’accès Internet
+
+<img width="746" height="385" alt="Connection PC1 vers PC3" src="https://github.com/user-attachments/assets/707c3c81-3e51-4755-9993-c0693d13f120" />
+
+*Figure 3 : PC1 vers PC3*
