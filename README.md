@@ -16,4 +16,4 @@ MISP: Threat intelligence platform that enables integration and sharing of infor
 
 Zabbix (Performance Monitoring): Centralized monitoring of systems and networks to ensure optimal availability and performance
 
-🛡️ Ultimate Cybersecurity Mastery Roadmap
+p
