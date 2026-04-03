@@ -8,7 +8,6 @@ pfSense est utilisé pour le contrôle central des flux réseau, le filtrage, l�
 ![Architecture réseau cible](images/network_configuration/Architecture_Reseau.png)  
 *Figure 1 : Architecture réseau cible*
 
-
 ### 📊 Plan d'adressage
 
 
