@@ -37,6 +37,13 @@ Figure 7 : [Surveillance des interfaces Gi0/2 et Gi0/3 de commutateur ESW4 avec 
 
 Cette figure illustre l’état actuel de SNMP sur le routeur, confirmant que les paramètres ont bien été appliqués.
 
+Figure 8 : [État du service SNMP sur le routeur](../images/network_monitoring/État%20du%20service%20SNMP%20sur%20le%20routeur.png)
+
+Puis, nous avons ajouté le routeur R1 au serveur Zabbix afin d’assurer sa supervision.
+
+La figure suivante illustre son intégration au sein de l’interface de surveillance, confirmant que routeur est désormais pris en charge pour le monitoring SNMP.
+
+Figure 9 : [Ajout du routeur au serveur Zabbix](../images/network_monitoring/Ajout%20du%20routeur%20au%20serveur%20Zabbix.png)
 
 La figure suivante illustre la surveillance effective des routeurs à partir de l’interface Zabbix, réalisée
 via le protocole SNMP.
