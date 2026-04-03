@@ -100,8 +100,12 @@ La figure suivante illustre cette étape.
 
 Figure 20 : [Configuration de l’agent Zabbix sur Windows 10](../images/network_monitoring/Configuration%20de%20l’agent%20Zabbix%20sur%20Windows%2010.png)
 
+Par la suite, nous avons procédé à l’ajout de la VM Windows 10 au serveur Zabbix afin d’en assurer la supervision, comme présenté dans la figure suivante.
+
+Figure 21 : [Ajout de Vm Windows 10 au serveur Zabbix](../images/network_monitoring/Ajout%20de%20Vm%20Windows%2010%20au%20serveur%20Zabbix.png)
+
 Cette figure illustre le résultat de la supervision réalisée via Zabbix sur la machine virtuelle Windows 10.
 
-Figure 9 : [Supervision du système Windows 10](../images/network_monitoring/Monitoring%20du%20système%20Windows%2010.png)
+Figure 22 : [Supervision du système Windows 10](../images/network_monitoring/Monitoring%20du%20système%20Windows%2010.png)
 
 
