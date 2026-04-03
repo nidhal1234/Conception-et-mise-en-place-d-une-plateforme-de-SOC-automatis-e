@@ -17,9 +17,7 @@ Figure 3 : [Configuration du wazuh-agent sur Ubuntu](../images/SOC/Configuration
 
 Pour déployer l’agent Wazuh sur la machine Windows, il est nécessaire d’enregistrer l’hôte via l’interface du serveur Wazuh pour établir une communication sécurisée entre l’agent et le serveur, comme illustré dans la figure suivante.
 
-
-
-
+Figure 4 : [État wazuh-agent sur Windows 10](../images/SOC/État%20wazuh-agent%20sur%20Windows%2010.png)
 
 
 
