@@ -23,17 +23,9 @@ Nous avons ensuite installé l’agent Wazuh sur notre machine virtuelle Windows
 
 Figure 5 : [État wazuh-agent sur Windows 10](../images/SOC/État%20wazuh-agent%20sur%20Windows%2010.png)
 
+Cette figure présente la liste des agents visibles depuis l’interface de gestion de Wazuh, confirmant leur ajout réussi et leur communication active avec le serveur après le déploiement des agents.
 
-
-
-
-
-
-
-
-Cette figure présente la liste des agents visibles depuis l’interface de gestion Wazuh, confirmant leur ajout réussi et leur communication active avec le serveur.
-
-Figure 1 : [Agents de Wazuh](../images/SOC/Agents%20de%20Wazuh.png)
+Figure 6 : [Agents de Wazuh](../images/SOC/Agents%20de%20Wazuh.png)
 
 La figure suivante nous montre que le serveur Wazuh commence à intercepter les journaux et les alertes des différents niveau à partir de l’agent Windows.
 
