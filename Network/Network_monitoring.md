@@ -78,6 +78,10 @@ Dans cette étape, nous avons procédé à la configuration avancée de la super
 Après l’installation de l’agent Zabbix sur la machine Ubuntu Server, nous avons vérifié son état de fonctionnement afin de nous assurer qu’il est actif et opérationnel.
 Cette figure présente le statut du service Zabbix Agent sur le système.
 
+Figure 16 : [État de l’agent Zabbix sur Ubuntu Server](../images/network_monitoring/État%20de%20l’agent%20Zabbix%20sur%20Ubuntu%20Server.png)
+
+
+
 Le résultat de la supervision réalisée via Zabbix met en évidence l’évolution de l’utilisation de l’espace disque sur la machine virtuelle Ubuntu Server, offrant un suivi précis de la consommation des ressources de stockage et facilitant l’anticipation des besoins futurs, comme le montre la figure qui suit.
 
 
