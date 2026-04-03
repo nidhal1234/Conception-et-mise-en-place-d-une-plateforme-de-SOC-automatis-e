@@ -15,3 +15,5 @@ MISP: Threat intelligence platform that enables integration and sharing of infor
 (These three tools work together in an integrated way to automate the collection, analysis, and response to incidents.)
 
 Zabbix (Performance Monitoring): Centralized monitoring of systems and networks to ensure optimal availability and performance.
+![Architecture réseau cible](images/network_configuration/Architecture_Reseau.png)  
+*Figure 1 : Architecture réseau cible*
