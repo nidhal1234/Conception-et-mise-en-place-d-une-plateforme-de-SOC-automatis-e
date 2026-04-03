@@ -52,10 +52,11 @@ Figure 10 : [Surveillance des routeurs R1 et R2 avec Zabbix](../images/network_m
 
 * Supervision des pare-feux
   
-Dans cette phase, nous avons mis en oeuvre la configuration nécessaire pour permettre la supervision des pare-feux pfSense au moyen du protocole SNMP. Cette configuration a établi un lien de communication fiable entre ces équipements de sécurité et le serveur Zabbix, permettant la collecte en temps réel d’indicateurs essentiels tels que l’état des interfaces, le niveau d’utilisation des ressources, et les statistiques de trafic.
+Les pare-feux pfSense ont été configurés pour la supervision via SNMP avec Zabbix, permettant la collecte en temps réel des métriques (interfaces, ressources, trafic) et l’envoi de traps SNMP pour détecter les événements critiques. Les deux figures suivantes montrent la configuration des pare-feux pfSense1 et pfSense2.
 
-La figure qui suit illustre avec succès l’état de la surveillance, confirmant la réception et l’analyse
-des traps SNMP émis par les dispositifs pfSense.
+
+
+La figure qui suit illustre avec succès l’état de la surveillance, confirmant la réception et l’analyse des traps SNMP émis par les dispositifs pfSense.
 
 Figure 7 : [Surveillance des pare-feux avec Zabbix](../images/network_monitoring/Surveillance%20des%20pare-feux%20avec%20Zabbix.png)
 
