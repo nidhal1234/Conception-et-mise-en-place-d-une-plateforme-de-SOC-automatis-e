@@ -5,8 +5,7 @@ Dans cette phase, nous avons procédé au déploiement des agents Wazuh sur deux
 Pour le déploiement de l’agent Wazuh sur la machine Ubuntu, il est nécessaire d’enregistrer préalablement cet hôte depuis l’interface d’administration du serveur Wazuh. Cette étape permet de générer les clés d’authentification requises pour établir une communication sécurisée entre l’agent et le
 serveur, comme illustré dans la figure suivante.
 
-
-
+Figure 1 : [Ajout d’agent Ubuntu](../images/SOC/Ajout%20d’agent%20Ubuntu.png)
 
 
 
