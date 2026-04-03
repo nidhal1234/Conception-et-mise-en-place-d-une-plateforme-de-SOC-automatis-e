@@ -15,6 +15,9 @@ Ensuite, nous avons ajouté le commutateur ESW4 au serveur Zabbix afin d’assur
 
 La figure suivante illustre son intégration dans l’interface de surveillance.
 
+Figure 3 : [Ajout du commutateur au serveur Zabbix](../images/network_monitoring/Ajout%20du%20commutateur%20au%20serveur%20Zabbix.png)
+
+
 Ces figures illustrent la surveillance effective des commutateurs à partir de l’interface Zabbix, réalisée via le protocole SNMP.
 
 Figure 2 : [Surveillance des commutateurs ESW1, ESW2, ESW3 avec Zabbix](../images/network_monitoring/Surveillance%20des%20commutateurs%20ESW1,%20ESW2,%20ESW3%20avec%20Zabbix.png)
