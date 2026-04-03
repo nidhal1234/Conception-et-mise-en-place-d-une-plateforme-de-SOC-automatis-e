@@ -53,12 +53,16 @@ Cette figure illustre l’activation de la journalisation distante sur le pare-f
 
 Figure 12 : [Configuration du Syslog sur pfSense2](../images/SOC/Configuration%20du%20Syslog%20sur%20pfSense2.png)
 
+Le serveur Wazuh a été configuré pour recevoir les logs syslog des pare-feux pfSense, permettant une collecte centralisée et continue des événements de sécurité. 
 
+La figuresuivante illustre cette configuration.
+
+Figure 13 : [Configuration de Syslog sur le serveur Wazuh](../images/SOC/Configuration%20de%20Syslog%20sur%20le%20serveur%20Wazuh.png)
 
 Cette figure montre la surveillance effective de pfSense1 via le serveur Wazuh.
 
-Figure 6 : [Surveillance de pfSense1 via Wazuh](../images/SOC/Surveillance%20de%20pfSense1%20via%20Wazuh.png)
+Figure 14 : [Surveillance de pfSense1 via Wazuh](../images/SOC/Surveillance%20de%20pfSense1%20via%20Wazuh.png)
 
 La figure suivante montre la surveillance effective de pfSense2 via le serveur Wazuh.
 
-Figure 7 : [Surveillance de pfSense2 via Wazuh](../images/SOC/Surveillance%20de%20pfSense2%20via%20Wazuh.png)
+Figure 15 : [Surveillance de pfSense2 via Wazuh](../images/SOC/Surveillance%20de%20pfSense2%20via%20Wazuh.png)
