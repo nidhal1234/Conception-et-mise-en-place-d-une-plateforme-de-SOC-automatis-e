@@ -95,7 +95,10 @@ Figure 19 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitor
 
 
 Après l’installation réussie de l’agent Zabbix sur la machine virtuelle Windows 10, nous avons procédé à sa configuration afin d’assurer une communication efficace avec le serveur Zabbix.
+
 La figure suivante illustre cette étape.
+
+Figure 20 : [Configuration de l’agent Zabbix sur Windows 10](../mages/network_monitoring/Configuration%20de%20l’agent%20Zabbix%20sur%20Windows%2010.png)
 
 Cette figure illustre le résultat de la supervision réalisée via Zabbix sur la machine virtuelle Windows 10.
 
