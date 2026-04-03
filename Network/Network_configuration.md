@@ -25,3 +25,5 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
 <img width="746" height="522" alt="Connection de PC4 vers PC2" src="https://github.com/user-attachments/assets/f9a7f431-0fc6-4476-8e35-bf302f29455e" />
 
 *Figure 4 : PC4 vers PC2*
+
+### 🔐 Haute disponibilité (HA)
