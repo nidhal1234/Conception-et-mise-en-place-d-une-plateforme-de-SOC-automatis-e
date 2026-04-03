@@ -37,3 +37,10 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
 *Figure 6 : pfSense2 Backup*
 
 ### 🌐 Connectivité vers serveurs et Internet
+
+<img width="738" height="517" alt="Connection PC1 de VLAN 10 vers un PC de vlan 77" src="https://github.com/user-attachments/assets/86e9ef8d-aa58-400f-93f6-e32e55a1b7a4" />
+
+*Figure 7 : PC1 vers Ubuntu Server*
+
+<img width="747" height="518" alt="Connection PC1 de VLAN 10 sur internet " src="https://github.com/user-attachments/assets/f1efe4e0-907e-457f-b536-c352c768084f" /> *Figure 8 : PC1 vers Internet*  
+
