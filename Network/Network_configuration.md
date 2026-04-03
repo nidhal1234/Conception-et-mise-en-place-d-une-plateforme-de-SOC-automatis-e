@@ -6,6 +6,7 @@ pfSense est utilisé pour le contrôle central des flux réseau, le filtrage, l�
 
 📸 Architecture
 
+images/network_configuration/Architecture Réseau.png
 
 
 Après la réalisation et la configuration de notre maquette, la validation fonctionnelle vise à s’assurer que l’architecture réseau conçue répond aux objectifs attendus en matière de connectivité, de segmentation logique, et de communication entre les différents équipements. Elle constitue une étape essentielle permettant de vérifier que la configuration des routeurs, commutateurs, pare-feux et machines virtuelles a été correctement appliquée, et que les liaisons établies entre les composants assurent un fonctionnement cohérent et stable. Cette validation repose sur une série de vérifications de base avant les tests approfondis, notamment la connectivité IP, la reconnaissance des VLANs, la disponibilité des services réseau essentiels et la conformité des adresses IP selon le plan d’adressage défini.
