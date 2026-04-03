@@ -28,5 +28,5 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
 
 ### 🔐 Haute disponibilité (HA)
 
-- pfSense1 → Master ![Status Master](images/network_configuration/PfSense1 comme Master.png) *Figure 5*  
+- pfSense1 → Master ![Status Master](images/network_configuration/PfSense1_comme_Master.png) *Figure 5*  
 - pfSense2 → Backup ![Status Backup](images/network/pfsense2_backup.png) *Figure 6*
