@@ -48,4 +48,6 @@ Figure 9 : [Téléchargement de fichier malveillant](../images/Test/Télécharge
 Une alerte a été immédiatement générée par Wazuh dans la section File Integrity Monitoring, signalant une modification non autorisée du système de fichiers.
 Cette alerte indiquait l’ajout d’un fichier malveillant de type Trojan sur la machine Ubuntu ciblée, comme le montre la figure suivante.
 
-Figure 9 : [Téléchargement de fichier malveillant](../images/Test/Téléchargement%20de%20fichier%20malveillant.jpg)
+Figure 10 : [Détection du fichier malveillant via Wazuh](../images/Test/Détection%20du%20fichier%20malveillant%20via%20Wazuh.jpg)
+
+
