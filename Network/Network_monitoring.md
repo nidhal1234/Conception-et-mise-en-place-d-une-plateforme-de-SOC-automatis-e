@@ -58,8 +58,12 @@ Figure 11 : [Configuration SNMP de pfSense1](../images/network_monitoring/Config
 
 Figure 12 : [Configuration SNMP de pfSense2](../images/network_monitoring/Configuration%20SNMP%20de%20pfSense2.png)
 
+Nous avons désormais ajouté les deux pare-feux, pfSense1 et pfSense2, au serveur Zabbix afin d’assurer leur supervision.
 
-La figure qui suit illustre avec succès l’état de la surveillance, confirmant la réception et l’analyse des traps SNMP émis par les dispositifs pfSense.
+Ces figures illustrent cette intégration au sein de l’interface de surveillance.
+
+
+La figure suivante illustre avec succès l’état de la surveillance, confirmant la réception et l’analyse des traps SNMP émis par les dispositifs pfSense.
 
 Figure 7 : [Surveillance des pare-feux avec Zabbix](../images/network_monitoring/Surveillance%20des%20pare-feux%20avec%20Zabbix.png)
 
