@@ -15,6 +15,19 @@ Puis nous devons ajouter l’adresse IP de notre serveur wazuh dans le fichier d
 
 Figure 3 : [Configuration du wazuh-agent sur Ubuntu](../images/SOC/Configuration%20du%20wazuh-agent%20sur%20Ubuntu.png)
 
+Pour déployer l’agent Wazuh sur la machine Windows, il est nécessaire d’enregistrer l’hôte via l’interface du serveur Wazuh pour établir une communication sécurisée entre l’agent et le serveur, comme illustré dans la figure suivante.
+
+
+
+
+
+
+
+
+
+
+
+
 
 Cette figure présente la liste des agents visibles depuis l’interface de gestion Wazuh, confirmant leur ajout réussi et leur communication active avec le serveur.
 
