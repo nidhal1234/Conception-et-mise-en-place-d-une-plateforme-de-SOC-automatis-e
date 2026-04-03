@@ -43,4 +43,6 @@ du système à détecter une menace réelle et à générer les alertes nécessa
 appropriée.
 Pour initier ce scénario de test, nous avons téléchargé le fichier malveillant au niveau machine Ubuntu Server de notre réseau de test, comme le montre la figure suivante.
 
-Figure 8 : [Rapport sur TheHive](../images/Test/Rapport%20sur%20TheHive.jpg)
+Figure 9 : [Téléchargement de fichier malveillant](../images/Test/Téléchargement%20de%20fichier%20malveillant.jpg)
+
+
