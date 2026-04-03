@@ -35,3 +35,5 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
  <img width="1315" height="791" alt="pfSense2 comme Backup" src="https://github.com/user-attachments/assets/6db8fdc5-e181-4707-bfc9-ad66c95ff61a" />
 
 *Figure 6 : pfSense2 Backup*
+
+### 🌐 Connectivité vers serveurs et Internet
