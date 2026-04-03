@@ -47,6 +47,11 @@ Pour appliquer efficacement la surveillance Wazuh aux pare-feux pfSense, il est 
 
 La figure suivante illustre l’activation de la journalisation distante sur le pare-feu pfSense1.
 
+Figure 11 : [Configuration du Syslog sur pfSense1](../images/SOC/Configuration%20du%20Syslog%20sur%20pfSense1.png)
+
+Cette figure illustre l’activation de la journalisation distante sur le pare-feu pfSense2.
+
+Figure 12 : [Configuration du Syslog sur pfSense2](../images/SOC/Configuration%20du%20Syslog%20sur%20pfSense2.png)
 
 
 
