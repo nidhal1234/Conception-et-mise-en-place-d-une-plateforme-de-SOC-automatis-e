@@ -4,7 +4,7 @@ La figure qui suit illustre l’amélioration de notre architecture réseau grâ
 
 Figure 1 : [Intégration du serveur Zabbix dans l’architecture réseau](../images/network_monitoring/Intégration%20du%20serveur%20Zabbix%20dans%20l’architecture%20réseau.png)
 
-* Supervision des commutateurs et des routeurs
+* Supervision des commutateurs
 
 Après la configuration du protocole SNMP sur le commutateur ESW4, afin qu’il puisse envoyer ses traps vers le serveur Zabbix, nous avons vérifié l’état du service afin de s’assurer de son bon fonctionnement.
 Cette figur présente l’état actuel de SNMP sur le commutateur, confirmant ainsi la prise en compte des paramètres appliqués.
@@ -31,6 +31,8 @@ Figure 6 : [Surveillance des interfaces Gi0/0 et Gi0/1 de commutateur ESW4 avec 
 
 Figure 7 : [Surveillance des interfaces Gi0/2 et Gi0/3 de commutateur ESW4 avec Zabbix](../images/network_monitoring/Surveillance%20des%20interfaces%20Gi02%20et%20Gi03%20de%20commutateur%20ESW4%20avec%20Zabbix.png)
 
+* Supervision des Routeurs
+  
 La figure qui suit illustre la surveillance effective des routeurs à partir de l’interface Zabbix, réalisée
 via le protocole SNMP.
 
