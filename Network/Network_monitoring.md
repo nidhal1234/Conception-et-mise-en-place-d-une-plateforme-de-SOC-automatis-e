@@ -73,9 +73,7 @@ Figure 15 : [Surveillance des pare-feux avec Zabbix](../images/network_monitorin
 
 * Supervision des machines virtuelles
 
-Dans cette étape, nous avons procédé à la configuration avancée de la supervision des machines virtuelles Ubuntu Server et Windows 10 en déployant et intégrant l’agent Zabbix sur chaque hôte. 
-
-Cette configuration permet la remontée granulaire d’indicateurs clés tels que l’utilisation des ressources système (CPU, mémoire, disque), l’état des processus critiques ainsi que la disponibilité des services.
+Dans cette étape, nous avons procédé à la configuration avancée de la supervision des machines virtuelles Ubuntu Server et Windows 10 en déployant et intégrant l’agent Zabbix sur chaque hôte. Cette configuration permet la remontée granulaire d’indicateurs clés tels que l’utilisation des ressources système (CPU, mémoire, disque), l’état des processus critiques ainsi que la disponibilité des services.
 
 Après l’installation de l’agent Zabbix sur la machine Ubuntu Server, nous avons vérifié son état de fonctionnement afin de nous assurer qu’il est actif et opérationnel.
 Cette figure présente le statut du service Zabbix Agent sur le système.
