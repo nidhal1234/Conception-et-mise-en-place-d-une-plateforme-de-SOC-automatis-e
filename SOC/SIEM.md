@@ -7,8 +7,9 @@ serveur, comme illustré dans la figure suivante.
 
 Figure 1 : [Ajout d’agent Ubuntu](../images/SOC/Ajout%20d’agent%20Ubuntu.png)
 
+Ensuite, nous avons procédé à l’installation de l’agent Wazuh sur notre système linux, suivie de la vérification de son état de fonctionnement, comme le montre la figure suivante.
 
-
+Figure 2 : [État wazuh-agent sur Ubuntu Server](../images/SOC/État%20wazuh-agent%20sur%20Ubuntu%20Server.png)
 
 
 
