@@ -9,8 +9,7 @@ Figure 1 : [Intégration du serveur Zabbix dans l’architecture réseau](../ima
 Après la configuration du protocole SNMP sur le commutateur ESW4, afin qu’il puisse envoyer ses traps vers le serveur Zabbix, nous avons vérifié l’état du service afin de s’assurer de son bon fonctionnement.
 Cette figur présente l’état actuel de SNMP sur le commutateur, confirmant ainsi la prise en compte des paramètres appliqués.
 
-
-
+Figure 2 : [État du protocole SNMP sur le commutateur](../images/network_monitoring/État%20du%20protocole%20SNMP%20sur%20le%20commutateur.png)
 
 Ces figures illustrent la surveillance effective des commutateurs à partir de l’interface Zabbix, réalisée via le protocole SNMP.
 
