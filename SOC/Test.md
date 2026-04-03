@@ -57,3 +57,7 @@ Figure 11 : [Rapport d’alerte Wazuh](../images/Test/Rapport%20d’alerte%20Waz
 Suite à la détection de l’alerte par Wazuh, une alerte liée au fichier malveillant détecté a été automatiquement générée dans TheHive, comme présenté dans la figure suivante.
 
 Figure 12 : [Déclenchement d’une alerte dans TheHive](../images/Test/Déclenchement%20d’une%20alerte%20dans%20TheHive.jpg) 
+
+Dès la réception de l’alerte dans TheHive, nous avons procédé à son ouverture pour examiner en détail les informations contextuelles, comme le montre la figure suivante.
+
+Figure 12 : [Déclenchement d’une alerte dans TheHive](../images/Test/Déclenchement%20d’une%20alerte%20dans%20TheHive.jpg) 
