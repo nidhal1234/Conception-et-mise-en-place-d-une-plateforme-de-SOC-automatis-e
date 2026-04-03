@@ -50,4 +50,6 @@ Cette alerte indiquait l’ajout d’un fichier malveillant de type Trojan sur l
 
 Figure 10 : [Détection du fichier malveillant via Wazuh](../images/Test/Détection%20du%20fichier%20malveillant%20via%20Wazuh.jpg)
 
+Cette figure présente une vue détaillée de l’alerte émise par Wazuh, mettant en évidence les informations critiques relatives à l’ajout du fichier malveillant détecté sur la machine.
+
 
