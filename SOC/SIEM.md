@@ -11,10 +11,9 @@ Ensuite, nous avons procédé à l’installation de l’agent Wazuh sur notre s
 
 Figure 2 : [État wazuh-agent sur Ubuntu Server](../images/SOC/État%20wazuh-agent%20sur%20Ubuntu%20Server.png)
 
+Puis nous devons ajouter l’adresse IP de notre serveur wazuh dans le fichier de configuration de l’agent, comme le montre la figure suivante.
 
-
-
-
+Figure 3 : [Configuration du wazuh-agent sur Ubuntu](../images/SOC/Configuration%20du%20wazuh-agent%20sur%20Ubuntu.png)
 
 
 Cette figure présente la liste des agents visibles depuis l’interface de gestion Wazuh, confirmant leur ajout réussi et leur communication active avec le serveur.
