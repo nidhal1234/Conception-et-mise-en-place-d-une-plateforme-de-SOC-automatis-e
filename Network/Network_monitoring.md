@@ -63,10 +63,13 @@ Nous avons désormais ajouté les deux pare-feux, pfSense1 et pfSense2, au serve
 Ces figures illustrent cette intégration au sein de l’interface de surveillance.
 
 
+Figure 13 : [Ajout du pfSense1 au serveur Zabbix](../images/network_monitoring/Ajout%20du%20pfSense1%20au%20serveur%20Zabbix.png)
+
+Figure 14 : [Ajout du pfSense2 au serveur Zabbix](../images/network_monitoring/Ajout%20du%20pfSense2%20au%20serveur%20Zabbix.png)
+
 La figure suivante illustre avec succès l’état de la surveillance, confirmant la réception et l’analyse des traps SNMP émis par les dispositifs pfSense.
 
 Figure 7 : [Surveillance des pare-feux avec Zabbix](../images/network_monitoring/Surveillance%20des%20pare-feux%20avec%20Zabbix.png)
-
 
 Dans cette étape, nous avons procédé à la configuration avancée de la supervision des machines virtuelles Ubuntu Server et Windows 10 en déployant et intégrant l’agent Zabbix sur chaque hôte. 
 Network Monitor
