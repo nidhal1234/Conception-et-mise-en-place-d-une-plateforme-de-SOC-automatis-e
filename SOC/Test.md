@@ -60,4 +60,8 @@ Figure 12 : [Déclenchement d’une alerte dans TheHive](../images/Test/Déclenc
 
 Dès la réception de l’alerte dans TheHive, nous avons procédé à son ouverture pour examiner en détail les informations contextuelles, comme le montre la figure suivante.
 
-Figure 12 : [Déclenchement d’une alerte dans TheHive](../images/Test/Déclenchement%20d’une%20alerte%20dans%20TheHive.jpg) 
+Figure 13 : [Vue détaillée de l’alerte dans TheHive](../images/Test/Vue%20détaillée%20de%20l’alerte%20dans%20TheHive.jpg) 
+
+L’analyse de l’artefact par Cortex a abouti à la génération d’un rapport détaillé, dont les résultats sont illustrés dans les figures suivantes.
+
+Figure 13 : [Vue détaillée de l’alerte dans TheHive](../images/Test/Vue%20détaillée%20de%20l’alerte%20dans%20TheHive.jpg) 
