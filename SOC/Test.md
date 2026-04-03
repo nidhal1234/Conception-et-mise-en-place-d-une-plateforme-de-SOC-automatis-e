@@ -35,3 +35,12 @@ Figure 7 : [Rapport sur Cortex](../images/Test/Rapport%20sur%20Cortex.jpg)
 
 Figure 8 : [Rapport sur TheHive](../images/Test/Rapport%20sur%20TheHive.jpg)
 
+* Scénario de test 2 : Fichier malveillant
+
+Dans ce scénario, un fichier malveillant de type Trojan a été téléchargé sur la machine Ubuntu
+Server afin de tester l’efficacité de la solution mise en place. Ce test avait pour but de vérifier la capacité
+du système à détecter une menace réelle et à générer les alertes nécessaires pour initier une réponse
+appropriée.
+Pour initier ce scénario de test, nous avons téléchargé le fichier malveillant au niveau machine Ubuntu Server de notre réseau de test, comme le montre la figure suivante.
+
+Figure 8 : [Rapport sur TheHive](../images/Test/Rapport%20sur%20TheHive.jpg)
