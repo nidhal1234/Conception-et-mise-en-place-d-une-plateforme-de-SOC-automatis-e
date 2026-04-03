@@ -42,5 +42,6 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
 
 *Figure 7 : PC1 vers Ubuntu Server*
 
-<img width="747" height="518" alt="Connection PC1 de VLAN 10 sur internet " src="https://github.com/user-attachments/assets/f1efe4e0-907e-457f-b536-c352c768084f" /> *Figure 8 : PC1 vers Internet*  
+<img width="747" height="518" alt="Connection PC1 de VLAN 10 sur internet " src="https://github.com/user-attachments/assets/f1efe4e0-907e-457f-b536-c352c768084f" /> 
+*Figure 8 : PC1 vers Internet*  
 
