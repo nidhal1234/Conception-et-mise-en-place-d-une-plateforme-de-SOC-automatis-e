@@ -11,6 +11,10 @@ Cette figur présente l’état actuel de SNMP sur le commutateur, confirmant ai
 
 Figure 2 : [État du protocole SNMP sur le commutateur](../images/network_monitoring/État%20du%20protocole%20SNMP%20sur%20le%20commutateur.png)
 
+Ensuite, nous avons ajouté le commutateur ESW4 au serveur Zabbix afin d’assurer sa supervision.
+
+La figure suivante illustre son intégration dans l’interface de surveillance.
+
 Ces figures illustrent la surveillance effective des commutateurs à partir de l’interface Zabbix, réalisée via le protocole SNMP.
 
 Figure 2 : [Surveillance des commutateurs ESW1, ESW2, ESW3 avec Zabbix](../images/network_monitoring/Surveillance%20des%20commutateurs%20ESW1,%20ESW2,%20ESW3%20avec%20Zabbix.png)
