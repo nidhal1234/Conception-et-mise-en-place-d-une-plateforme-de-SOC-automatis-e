@@ -91,7 +91,11 @@ Figure 18 : [Ajout de Vm Ubuntu au serveur Zabbix](../images/network_monitoring/
 Le résultat de la supervision réalisée via Zabbix met en évidence l’évolution de l’utilisation de l’espace disque sur la machine virtuelle Ubuntu Server, offrant un suivi précis de la consommation des ressources de stockage et facilitant l’anticipation des besoins futurs, comme le montre la figure qui suit.
 
 
-Figure 8 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitoring%20du%20Serveur%20Ubuntu.png)
+Figure 19 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitoring%20du%20Serveur%20Ubuntu.png)
+
+
+Après l’installation réussie de l’agent Zabbix sur la machine virtuelle Windows 10, nous avons procédé à sa configuration afin d’assurer une communication efficace avec le serveur Zabbix.
+La figure suivante illustre cette étape.
 
 Cette figure illustre le résultat de la supervision réalisée via Zabbix sur la machine virtuelle Windows 10.
 
