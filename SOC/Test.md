@@ -52,4 +52,4 @@ Figure 10 : [Détection du fichier malveillant via Wazuh](../images/Test/Détect
 
 Cette figure présente une vue détaillée de l’alerte émise par Wazuh, mettant en évidence les informations critiques relatives à l’ajout du fichier malveillant détecté sur la machine.
 
-
+Figure 11 : [Rapport d’alerte Wazuh](../images/Test/Rapport%20d’alerte%20Wazuh.jpgg)
