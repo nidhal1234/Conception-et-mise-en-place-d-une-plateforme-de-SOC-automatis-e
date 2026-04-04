@@ -112,26 +112,34 @@ Pour superviser les pare-feux via Wazuh, il est nécessaire d’activer la **jou
 
 ### pfSense1
 
-1. **Configuration du Syslog**  
-   La figure ci-dessous montre l’activation de la journalisation distante sur pfSense1.  
-   ![Syslog pfSense1](../images/siem/pfsense1_syslog.png)  
+1. **Configuration du Syslog**
+   
+   La figure ci-dessous montre l’activation de la journalisation distante sur pfSense1.
+   
+   ![Syslog pfSense1](../images/SOC/Configuration_du_Syslog_sur_pfSense1.png)
    *Figure 11 : Activation de la journalisation distante sur pfSense1*
 
-2. **Surveillance via Wazuh**  
-   La figure suivante illustre la surveillance effective de pfSense1 depuis le serveur Wazuh.  
-   ![Surveillance pfSense1](../images/siem/pfsense1_monitoring.png)  
+3. **Surveillance via Wazuh**
+   
+   La figure suivante illustre la surveillance effective de pfSense1 depuis le serveur Wazuh.
+   
+   ![Surveillance pfSense1](../images/SOC/Surveillance_de_pfSense1_via_Wazuh.png)  
    *Figure 12 : Supervision effective de pfSense1 via Wazuh*
 
 ### pfSense2
 
-1. **Configuration du Syslog**  
-   La figure ci-dessous montre l’activation de la journalisation distante sur pfSense2.  
-   ![Syslog pfSense2](../images/siem/pfsense2_syslog.png)  
+1. **Configuration du Syslog**
+
+   La figure ci-dessous montre l’activation de la journalisation distante sur pfSense2.
+    
+   ![Syslog pfSense2](../images/SOC/Configuration_du_Syslog_sur_pfSense2.png)  
    *Figure 13 : Activation de la journalisation distante sur pfSense2*
 
-2. **Surveillance via Wazuh**  
-   La figure suivante illustre la surveillance effective de pfSense2 depuis le serveur Wazuh.  
-   ![Surveillance pfSense2](../images/siem/pfsense2_monitoring.png)  
+3. **Surveillance via Wazuh**
+ 
+   La figure suivante illustre la surveillance effective de pfSense2 depuis le serveur Wazuh.
+   
+   ![Surveillance pfSense2](../images/SOC/Surveillance_de_pfSense2_via_Wazuh.png)  
    *Figure 14 : Supervision effective de pfSense2 via Wazuh*
 
 ---
