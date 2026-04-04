@@ -35,7 +35,7 @@ Les figures suivantes illustrent la supervision des commutateurs via SNMP dans Z
 
 Les figures ci-dessous présentent la surveillance du trafic des interfaces du commutateur ESW4.
 
-![Interfaces 0-1](../images/network_monitoring/interfaces_01.png)  
+![Interfaces 0-1](../images/network_monitoring/Surveillance_des_interfaces_Gi00_et_Gi01_de_commutateur_ESW4_avec_Zabbix.png)  
 *Figure 6 : Interfaces Gi0/0 et Gi0/1*
 
 ![Interfaces 2-3](../images/network_monitoring/interfaces_23.png)  
