@@ -17,7 +17,7 @@ Cette figure illustre l’intégration du serveur Zabbix dans l’architecture r
 
 Après la configuration du protocole SNMP sur le commutateur ESW4, nous avons vérifié l’état du service afin de valider son bon fonctionnement.
 
-![SNMP Switch](../images/network_monitoring/snmp_switch.png)  
+![SNMP Switch](../images/network_monitoring/Etat_du_protocole_SNMP_sur_le_commutateur.png)  
 *Figure 2 : État du protocole SNMP sur le commutateur*
 
 Le commutateur a ensuite été ajouté au serveur Zabbix pour assurer sa supervision.
