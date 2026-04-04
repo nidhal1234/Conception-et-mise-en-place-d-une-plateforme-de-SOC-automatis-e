@@ -33,7 +33,7 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
 
  ![pfSense2 Backup](../images/network_configuration/pfSense2_comme_Backup.png)
 
-*Figure 6 : pfSense2 Backup*
+*Figure 6 : pfSense2 → Backup *
 
 ### 🌐 Connectivité vers serveurs et Internet
 
