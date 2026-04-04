@@ -1,1 +1,1 @@
-![Architecture réseau](images/network_configuration/Architecture_Reseau.png)
+![Architecture réseau](../images/network_configuration/Architecture_Reseau.png)
