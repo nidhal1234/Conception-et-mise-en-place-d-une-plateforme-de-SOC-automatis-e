@@ -93,16 +93,23 @@ Les machines **Ubuntu Server** et **Windows 10** ont été supervisées via le d
 
 #### 🐧 Ubuntu Server
 
+Cette figure présente l’état de l’agent Zabbix sur la machine Ubuntu, confirmant son bon fonctionnement.
+
 ![Agent Ubuntu](../images/network_monitoring/Etat_agent_Zabbix_sur_Ubuntu_Server.png)  
 *Figure 16 : État de l’agent Zabbix sur Ubuntu*
+
+Cette figure illustre l’intégration de l’agent Zabbix avec le serveur, validant l’établissement de la communication.
 
 ![Integration Agent](../images/network_monitoring/Integration_de_agent_Zabbix_avec_le_serveur.png)  
 *Figure 17 : Intégration de l’agent avec le serveur*
 
+Cette figure montre l’ajout de la machine Ubuntu au serveur Zabbix pour assurer sa supervision.
+
+
 ![Ajout Ubuntu](../images/network_monitoring/Ajout_de_Vm_Ubuntu_au_serveur_Zabbix.png)  
 *Figure 18 : Ajout de la VM Ubuntu*
 
-![Monitoring Ubuntu](../images/network_monitoring/monitoring_ubuntu.png)  
+![Monitoring Ubuntu](../images/network_monitoring/Monitoring_du_Serveur_Ubuntu.png)  
 *Figure 19 : Supervision du serveur Ubuntu*
 
 ---
