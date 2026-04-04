@@ -72,5 +72,5 @@ Cette figure illustre l’accès à Internet depuis PC3, validant la configurati
 
 Cette figure présente la connectivité du serveur Ubuntu vers Internet, confirmant le bon fonctionnement de la passerelle réseau.
 
-![Ubuntu Server vers Internet](../images/network_configuration/Connexion_de_Ubuntu_Server_à_Internet.png)  
+![Ubuntu Server vers Internet](../images/network_configuration/Connexion_de_Ubuntu_Server_a_Internet.png)  
 *Figure 10 : Ubuntu Server vers Internet*
