@@ -57,7 +57,7 @@ Cette figure montre le pare-feu pfSense2 configuré en tant que nœud secondaire
 
 Cette figure illustre la connectivité entre PC1 et le serveur Ubuntu, confirmant l’accessibilité entre les VLANs.
 
-![PC1 vers Ubuntu Server](../images/network_configuration/Connexion_de_PC1_à_Ubuntu_Server.png)  
+![PC1 vers Ubuntu Server](../images/network_configuration/Connexion_de_PC1_a_Ubuntu_Server.png)  
 *Figure 7 : PC1 vers Ubuntu Server*
 
 Cette figure montre la réussite de la connexion de PC1 vers Internet.
