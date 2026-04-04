@@ -81,7 +81,7 @@ La figure ci-dessous montre les journaux collectés depuis Windows 10.
 Le serveur Wazuh intercepte également les logs et alertes générés par l’agent Ubuntu.  
 La figure suivante illustre ces journaux.  
 
-![Logs Ubuntu](../images/siem/logs_ubuntu.png)  
+![Logs Ubuntu](../images/SOC/Les_logs_de_la_machine_Ubuntu.png)  
 *Figure 8 : Journaux et alertes collectés depuis Ubuntu Server*
 
 ---
