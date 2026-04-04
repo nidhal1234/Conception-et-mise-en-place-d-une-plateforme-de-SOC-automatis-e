@@ -15,7 +15,7 @@ pfSense est utilisé pour le contrôle central des flux réseau, le filtrage, l�
 
 *Figure 2 : Répartition des sous-réseaux et IP*
 
-Tests réalisés pour vérifier la communication entre VLANs et l’accès Internet
+Tests réalisés pour vérifier la communication entre VLANs et l’accès Internet.
 
 ![PC1 vers PC3](../images/network_configuration/Connection_PC1_vers_PC3.png)
 
