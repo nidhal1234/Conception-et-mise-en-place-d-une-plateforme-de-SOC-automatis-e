@@ -26,10 +26,11 @@ Les agents Wazuh ont été déployés sur deux machines virtuelles : **Ubuntu Se
    ![État Wazuh Agent Ubuntu](../images/SOC/Etat_wazuh-agent_sur_Ubuntu_Server.png)  
    *Figure 2 : État du Wazuh Agent sur Ubuntu Server*
 
-5. **Configuration de l’agent**  
+5. **Configuration de l’agent**
+   
    L’adresse IP du serveur Wazuh est ajoutée dans le fichier de configuration de l’agent pour établir la connexion sécurisée.  
    La figure ci-dessous présente cette configuration.  
-   ![Configuration Wazuh Agent Ubuntu](../images/siem/agent_ubuntu_config.png)  
+   ![Configuration Wazuh Agent Ubuntu](../images/SOC/Configuration_du_wazuh-agent_sur_Ubuntu.png)  
    *Figure 3 : Configuration du Wazuh Agent sur Ubuntu*
 
 ---
