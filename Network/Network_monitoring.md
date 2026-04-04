@@ -66,23 +66,23 @@ Cette figure montre la supervision des routeurs via SNMP.
 
 Les pare-feux **pfSense** ont été configurés pour la supervision SNMP avec Zabbix, permettant la collecte des métriques et la réception des traps.
 
-![SNMP pfSense1](../images/network_monitoring/pfsense1_snmp.png)  
+![SNMP pfSense1](../images/network_monitoring/Configuration_SNMP_de_pfSense1.png)  
 *Figure 11 : Configuration SNMP de pfSense1*
 
-![SNMP pfSense2](../images/network_monitoring/pfsense2_snmp.png)  
+![SNMP pfSense2](../images/network_monitoring/Configuration_SNMP_de_pfSense2.png)  
 *Figure 12 : Configuration SNMP de pfSense2*
 
 Les pare-feux ont ensuite été ajoutés à Zabbix.
 
-![Ajout pfSense1](../images/network_monitoring/add_pfsense1.png)  
+![Ajout pfSense1](../images/network_monitoring/Ajout_du_pfSense1_au_serveur_Zabbix.png)  
 *Figure 13 : Ajout de pfSense1*
 
-![Ajout pfSense2](../images/network_monitoring/add_pfsense2.png)  
+![Ajout pfSense2](../images/network_monitoring/Ajout_du_pfSense2_au_serveur_Zabbix.png)  
 *Figure 14 : Ajout de pfSense2*
 
 Cette figure illustre la supervision active des pare-feux.
 
-![Monitoring pfSense](../images/network_monitoring/pfsense_monitoring.png)  
+![Monitoring pfSense](../images/network_monitoring/Surveillance_des_pare-feux_avec_Zabbix.png)  
 *Figure 15 : Surveillance des pare-feux*
 
 ---
