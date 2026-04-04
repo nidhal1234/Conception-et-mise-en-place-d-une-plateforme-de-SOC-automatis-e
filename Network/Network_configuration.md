@@ -45,11 +45,11 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
 
 *Figure 8 : PC1 vers Internet*  
 
-<img width="746" height="521" alt="Connection de PC3 de VLAN20 sur internet" src="https://github.com/user-attachments/assets/20b847de-68d4-4539-980f-1675789e0647" />
+![PC3 vers Internet](..images/network_configuration/Connection_de_PC3_de_VLAN20_à_internet.png)
 
  *Figure 9 : PC3 vers Internet*
 
-<img width="982" height="677" alt="Ping ubuntu vers Internet " src="https://github.com/user-attachments/assets/03109aec-322d-48f8-9683-7ba46b743e47" />
+ ![Ubuntu Server vers Internet](../images/network_configuration/Connexion_de_Ubuntu_Server_à_Internet.png)
 
 *Figure 10 : Ubuntu Server vers Internet*
 
