@@ -27,7 +27,7 @@ Le commutateur a ensuite été ajouté au serveur Zabbix pour assurer sa supervi
 
 Les figures suivantes illustrent la supervision des commutateurs via SNMP dans Zabbix.
 
-![Switches 1-3](../images/network_monitoring/switches_1_3.png)  
+![Switches 1-3](../images/network_monitoring/Surveillance_des_commutateurs_ESW1_ESW2_ESW3_avec_Zabbix.png)  
 *Figure 4 : Surveillance des commutateurs ESW1, ESW2, ESW3*
 
 ![Switches 4-6](../images/network_monitoring/switches_4_6.png)  
