@@ -93,13 +93,15 @@ La figure suivante illustre ces journaux.
 Les activités observées sur la machine Windows sont corrélées avec les techniques MITRE ATT&CK.  
 La figure ci-dessous illustre cette corrélation.
 
-![MITRE ATT&CK Windows](../images/SOC/Les_logs_de_la_machine_Ubuntu.png)  
+![MITRE ATT&CK Windows](../images/SOC/MITRE_ATT&CK_pou_Windows.png)  
 *Figure 9 : Techniques MITRE ATT&CK pour Windows 10*
 
 #### Ubuntu Server
+
 Les activités observées sur la machine Ubuntu sont également analysées selon MITRE ATT&CK.  
 La figure suivante montre cette analyse.  
-![MITRE ATT&CK Ubuntu](../images/siem/mitre_ubuntu.png)  
+
+![MITRE ATT&CK Ubuntu](../images/SOC/MITRE_ATT&CK_pour_Ubuntu.png)  
 *Figure 10 : Techniques MITRE ATT&CK pour Ubuntu Server*
 
 ---
