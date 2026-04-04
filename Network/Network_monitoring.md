@@ -22,7 +22,7 @@ Après la configuration du protocole SNMP sur le commutateur ESW4, nous avons v�
 
 Le commutateur a ensuite été ajouté au serveur Zabbix pour assurer sa supervision.
 
-![Ajout Switch](../images/network_monitoring/add_switch.png)  
+![Ajout Switch](../images/network_monitoring/Ajout_du_commutateur_au serveur_Zabbix.png)  
 *Figure 3 : Ajout du commutateur au serveur Zabbix*
 
 Les figures suivantes illustrent la supervision des commutateurs via SNMP dans Zabbix.
