@@ -47,17 +47,17 @@ Les figures ci-dessous présentent la surveillance du trafic des interfaces du c
 
 Le protocole SNMP a été configuré sur le routeur R1 afin de permettre l’envoi de traps vers Zabbix.
 
-![SNMP Router](../images/network_monitoring/snmp_router.png)  
+![SNMP Router](../images/network_monitoring/Etat_du_service_SNMP_sur_le_routeur.png)  
 *Figure 8 : État du service SNMP sur le routeur*
 
 Le routeur a ensuite été intégré dans Zabbix pour assurer sa supervision.
 
-![Ajout Router](../images/network_monitoring/add_router.png)  
+![Ajout Router](../images/network_monitoring/Ajout_du_routeur_au_serveur_Zabbix.png)  
 *Figure 9 : Ajout du routeur au serveur Zabbix*
 
 Cette figure montre la supervision des routeurs via SNMP.
 
-![Monitoring Router](../images/network_monitoring/router_monitoring.png)  
+![Monitoring Router](../images/network_monitoring/Surveillance_des_routeurs_R1_et_R2_avec_Zabbix.png)  
 *Figure 10 : Surveillance des routeurs R1 et R2*
 
 ---
