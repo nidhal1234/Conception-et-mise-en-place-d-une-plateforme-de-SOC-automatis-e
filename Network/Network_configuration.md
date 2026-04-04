@@ -25,7 +25,7 @@ Cette figure présente la répartition des sous-réseaux et l’affectation des 
 
 ### 🔌 Validation de connectivité
 
-Tests réalisés pour vérifier la communication entre VLANs et l’accès Internet.
+Cette section présente les tests de connectivité réalisés afin de valider l’accès aux ressources internes et externes.
 
 Cette figure montre le test de connectivité entre PC1 et PC3, confirmant le bon fonctionnement de la communication inter-VLAN.
 
