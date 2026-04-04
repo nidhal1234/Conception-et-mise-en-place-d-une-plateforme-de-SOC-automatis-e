@@ -116,11 +116,17 @@ Cette figure montre l’ajout de la machine Ubuntu au serveur Zabbix pour assure
 
 #### 🪟 Windows 10
 
-![Config Agent Windows](../images/network_monitoring/agent_windows_config.png)  
+Cette figure illustre la configuration de l’agent Zabbix sur la machine Windows 10.
+
+![Config Agent Windows](../images/network_monitoring/Configuration_de_agent_Zabbix_sur_Windows_10.png)  
 *Figure 20 : Configuration de l’agent Zabbix sur Windows*
 
-![Ajout Windows](../images/network_monitoring/add_windows.png)  
+Cette figure montre l’ajout de la machine Windows au serveur Zabbix pour sa supervision.
+
+![Ajout Windows](../images/network_monitoring/Ajout_de_Vm_Windows_10_au_serveur_Zabbix.png)  
 *Figure 21 : Ajout de la VM Windows*
 
-![Monitoring Windows](../images/network_monitoring/monitoring_windows.png)  
+Cette figure présente le résultat de la supervision du système Windows 10 via Zabbix.
+
+![Monitoring Windows](../images/network_monitoring/Monitoring_du_systeme_Windows_10.png)  
 *Figure 22 : Supervision du système Windows*
