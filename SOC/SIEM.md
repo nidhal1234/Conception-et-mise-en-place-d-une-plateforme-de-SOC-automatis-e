@@ -12,17 +12,18 @@ Les agents Wazuh ont été déployés sur deux machines virtuelles : **Ubuntu Se
 
 1. **Enregistrement de l’hôte sur le serveur Wazuh**  
    Cette étape permet de générer les clés d’authentification pour établir une communication sécurisée entre l’agent et le serveur.  
-   La figure ci-dessous montre l’ajout de l’agent Ubuntu depuis l’interface d’administration.  
+   La figure ci-dessous montre l’ajout de l’agent Ubuntu depuis l’interface d’administration.
+   
    ![Ajout d’agent Ubuntu](../images/SOC/Ajout_agent_Ubuntu.png)  
    *Figure 1 : Ajout de l’agent Ubuntu sur le serveur Wazuh*
 
-2. **Installation et vérification de l’agent**  
+3. **Installation et vérification de l’agent**  
    Après installation, l’agent est lancé et son état est vérifié pour s’assurer qu’il fonctionne correctement.  
    La figure suivante illustre l’état du Wazuh Agent sur Ubuntu Server.  
    ![État Wazuh Agent Ubuntu](../images/siem/agent_ubuntu_status.png)  
    *Figure 2 : État du Wazuh Agent sur Ubuntu Server*
 
-3. **Configuration de l’agent**  
+4. **Configuration de l’agent**  
    L’adresse IP du serveur Wazuh est ajoutée dans le fichier de configuration de l’agent pour établir la connexion sécurisée.  
    La figure ci-dessous présente cette configuration.  
    ![Configuration Wazuh Agent Ubuntu](../images/siem/agent_ubuntu_config.png)  
