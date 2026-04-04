@@ -38,14 +38,16 @@ Les agents Wazuh ont été déployés sur deux machines virtuelles : **Ubuntu Se
 
 ### 🪟 Windows 10
 
-1. **Enregistrement de l’hôte sur le serveur Wazuh**  
+1. **Enregistrement de l’hôte sur le serveur Wazuh**
+   
    La machine Windows est enregistrée sur le serveur pour générer les clés d’authentification sécurisées.  
    La figure suivante montre l’ajout de l’agent Windows sur le serveur Wazuh.
    
    ![Ajout d’agent Windows](../images/SOC/Ajout_agent_Windows.png)  
    *Figure 4 : Ajout de l’agent Windows sur le serveur Wazuh*
 
-3. **Installation et vérification de l’agent**  
+3. **Installation et vérification de l’agent**
+   
    Après installation, l’état de l’agent est vérifié pour confirmer sa communication avec le serveur.  
    La figure ci-dessous illustre l’état du Wazuh Agent sur Windows 10.
    
