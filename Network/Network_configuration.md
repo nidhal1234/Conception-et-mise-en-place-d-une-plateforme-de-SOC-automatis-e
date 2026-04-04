@@ -60,7 +60,7 @@ Cette figure illustre la connectivité entre PC1 et le serveur Ubuntu, confirman
 ![PC1 vers Ubuntu Server](../images/network_configuration/Connexion_de_PC1_à_Ubuntu_Server.png)  
 *Figure 7 : PC1 vers Ubuntu Server*
 
-Cette figure montre la réussite de la connexion de PC1 vers Internet à travers le pare-feu.
+Cette figure montre la réussite de la connexion de PC1 vers Internet.
 
 ![PC1 vers Internet](../images/network_configuration/Connection_PC1_de_VLAN_10_à_internet.png)  
 *Figure 8 : PC1 vers Internet*
