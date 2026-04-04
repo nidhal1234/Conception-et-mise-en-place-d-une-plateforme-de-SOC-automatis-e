@@ -18,7 +18,7 @@ Cette figure illustre l’architecture réseau cible mise en place dans notre en
 
 Cette figure présente la répartition des sous-réseaux et l’affectation des adresses IP au sein de l’architecture.
 
-![Plan d'adressage](../images/network_configuration/Plan_d'adressage.png)  
+![Plan d'adressage](../images/network_configuration/Plan_adressage.png)  
 *Figure 2 : Répartition des sous-réseaux et IP*
 
 ---
