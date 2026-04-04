@@ -45,7 +45,7 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
 
 *Figure 8 : PC1 vers Internet*  
 
-![PC3 vers Internet](..images/network_configuration/Connection_de_PC3_de_VLAN20_à_internet.png)
+![PC3 vers Internet](../images/network_configuration/Connection_de_PC3_de_VLAN20_à_internet.png)
 
  *Figure 9 : PC3 vers Internet*
 
