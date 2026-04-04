@@ -1,1 +1,1 @@
-![Plan d'adressage](images/network_configuration/plan_adressage.png)
+![Architecture réseau](images/network_configuration/Architecture_Reseau.png)
