@@ -23,7 +23,7 @@ Les agents Wazuh ont été déployés sur deux machines virtuelles : **Ubuntu Se
    Après installation, l’agent est lancé et son état est vérifié pour s’assurer qu’il fonctionne correctement.  
    La figure suivante illustre l’état du Wazuh Agent sur Ubuntu Server.
    
-   ![État Wazuh Agent Ubuntu](../images/SOC/Etat_wazuh-agent_sur_Ubuntu_Server.pngpng)  
+   ![État Wazuh Agent Ubuntu](../images/SOC/Etat_wazuh-agent_sur_Ubuntu_Server.png)  
    *Figure 2 : État du Wazuh Agent sur Ubuntu Server*
 
 5. **Configuration de l’agent**  
