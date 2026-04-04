@@ -59,8 +59,9 @@ Les agents Wazuh ont été déployés sur deux machines virtuelles : **Ubuntu Se
 ### 📋 Liste des agents
 
 Le serveur Wazuh affiche la liste des agents enregistrés, confirmant que tous communiquent activement avec le serveur.  
-La figure suivante présente cette liste d’agents actifs.  
-![Agents Wazuh](../images/siem/agents_list.png)  
+La figure suivante présente cette liste d’agents actifs.
+
+![Agents Wazuh](../images/SOC/Agents_de_Wazuh.png)  
 *Figure 6 : Agents Wazuh actifs sur le serveur*
 
 ---
