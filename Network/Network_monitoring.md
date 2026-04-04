@@ -1,111 +1,119 @@
-Dans cette partie, nous avons intégré l’outil de supervision Zabbix dans notre architecture réseau afin de renforcer la sécurité, la disponibilité et la performance de l’infrastructure. Cette solution permet une surveillance centralisée et en temps réel des équipements, facilitant la détection précoce desanomalies, des pannes ou des comportements suspects. Grâce à Zabbix, nous assurons une visibilitécomplète sur l’état du réseau, ce qui permet une réaction rapide face aux incidents et contribue à la résilience globale du système.
+## 📡 Network Monitoring avec Zabbix
 
-La figure qui suit illustre l’amélioration de notre architecture réseau grâce à l’intégration du serveur Zabbix.
+Dans cette partie, nous avons intégré **Zabbix** au sein de notre architecture réseau afin d’assurer une supervision centralisée, en temps réel, des différents équipements. Cette solution permet de détecter rapidement les anomalies, d’anticiper les pannes et d’améliorer la disponibilité ainsi que la sécurité globale de l’infrastructure.
 
-Figure 1 : [Intégration du serveur Zabbix dans l’architecture réseau](../images/network_monitoring/Intégration%20du%20serveur%20Zabbix%20dans%20l’architecture%20réseau.png)
+---
 
-* Supervision des commutateurs
+### 🏗️ Intégration de Zabbix
 
-Après la configuration du protocole SNMP sur le commutateur ESW4, afin qu’il puisse envoyer ses traps vers le serveur Zabbix, nous avons vérifié l’état du service afin de s’assurer de son bon fonctionnement.
-Cette figur présente l’état actuel de SNMP sur le commutateur, confirmant ainsi la prise en compte des paramètres appliqués.
+Cette figure illustre l’intégration du serveur Zabbix dans l’architecture réseau.
 
-Figure 2 : [État du protocole SNMP sur le commutateur](../images/network_monitoring/État%20du%20protocole%20SNMP%20sur%20le%20commutateur.png)
+![Intégration Zabbix](../images/network_monitoring/integration_zabbix.png)  
+*Figure 1 : Intégration du serveur Zabbix dans l’architecture réseau*
 
-Ensuite, nous avons ajouté le commutateur ESW4 au serveur Zabbix afin d’assurer sa supervision.
+---
 
-La figure suivante illustre son intégration dans l’interface de surveillance.
+### 🔌 Supervision des commutateurs
 
-Figure 3 : [Ajout du commutateur au serveur Zabbix](../images/network_monitoring/Ajout%20du%20commutateur%20au%20serveur%20Zabbix.png)
+Après la configuration du protocole SNMP sur le commutateur ESW4, nous avons vérifié l’état du service afin de valider son bon fonctionnement.
 
+![SNMP Switch](../images/network_monitoring/snmp_switch.png)  
+*Figure 2 : État du protocole SNMP sur le commutateur*
 
-Ces figures illustrent la surveillance effective des commutateurs à partir de l’interface Zabbix, réalisée via le protocole SNMP.
+Le commutateur a ensuite été ajouté au serveur Zabbix pour assurer sa supervision.
 
-Figure 4 : [Surveillance des commutateurs ESW1, ESW2, ESW3 avec Zabbix](../images/network_monitoring/Surveillance%20des%20commutateurs%20ESW1,%20ESW2,%20ESW3%20avec%20Zabbix.png)
+![Ajout Switch](../images/network_monitoring/add_switch.png)  
+*Figure 3 : Ajout du commutateur au serveur Zabbix*
 
-Figure 5 : [Surveillance des commutateurs ESW4, ESW5, ESW6 avec Zabbix](../images/network_monitoring/Surveillance%20des%20commutateurs%20ESW4,%20ESW5,%20ESW6%20avec%20Zabbix.png)
+Les figures suivantes illustrent la supervision des commutateurs via SNMP dans Zabbix.
 
-Les figures qui suivent présentent la surveillance du trafic réseau des interfaces du commutateur
-ESW4 via Zabbix.
+![Switches 1-3](../images/network_monitoring/switches_1_3.png)  
+*Figure 4 : Surveillance des commutateurs ESW1, ESW2, ESW3*
 
-Figure 6 : [Surveillance des interfaces Gi0/0 et Gi0/1 de commutateur ESW4 avec Zabbix](../images/network_monitoring/Surveillance%20des%20interfaces%20Gi00%20et%20Gi01%20de%20commutateur%20ESW4%20avec%20Zabbix.png)
+![Switches 4-6](../images/network_monitoring/switches_4_6.png)  
+*Figure 5 : Surveillance des commutateurs ESW4, ESW5, ESW6*
 
-Figure 7 : [Surveillance des interfaces Gi0/2 et Gi0/3 de commutateur ESW4 avec Zabbix](../images/network_monitoring/Surveillance%20des%20interfaces%20Gi02%20et%20Gi03%20de%20commutateur%20ESW4%20avec%20Zabbix.png)
+Les figures ci-dessous présentent la surveillance du trafic des interfaces du commutateur ESW4.
 
-* Supervision des Routeurs
+![Interfaces 0-1](../images/network_monitoring/interfaces_01.png)  
+*Figure 6 : Interfaces Gi0/0 et Gi0/1*
 
-À cette étape, le protocole SNMP a été configuré sur le routeur R1 afin de permettre l’envoi de traps vers le serveur Zabbix. L’état du service a ensuite été vérifié pour s’assurer de son bon fonctionnement.
+![Interfaces 2-3](../images/network_monitoring/interfaces_23.png)  
+*Figure 7 : Interfaces Gi0/2 et Gi0/3*
 
-Cette figure illustre l’état actuel de SNMP sur le routeur, confirmant que les paramètres ont bien été appliqués.
+---
 
-Figure 8 : [État du service SNMP sur le routeur](../images/network_monitoring/État%20du%20service%20SNMP%20sur%20le%20routeur.png)
+### 🌐 Supervision des routeurs
 
-Puis, nous avons ajouté le routeur R1 au serveur Zabbix afin d’assurer sa supervision.
+Le protocole SNMP a été configuré sur le routeur R1 afin de permettre l’envoi de traps vers Zabbix.
 
-La figure suivante illustre son intégration au sein de l’interface de surveillance, confirmant que routeur est désormais pris en charge pour le monitoring SNMP.
+![SNMP Router](../images/network_monitoring/snmp_router.png)  
+*Figure 8 : État du service SNMP sur le routeur*
 
-Figure 9 : [Ajout du routeur au serveur Zabbix](../images/network_monitoring/Ajout%20du%20routeur%20au%20serveur%20Zabbix.png)
+Le routeur a ensuite été intégré dans Zabbix pour assurer sa supervision.
 
-La figure suivante illustre la surveillance effective des routeurs à partir de l’interface Zabbix, réalisée
-via le protocole SNMP.
+![Ajout Router](../images/network_monitoring/add_router.png)  
+*Figure 9 : Ajout du routeur au serveur Zabbix*
 
-Figure 10 : [Surveillance des routeurs R1 et R2 avec Zabbix](../images/network_monitoring/Surveillance%20des%20routeurs%20R1%20et%20R2%20avec%20Zabbix.png)
+Cette figure montre la supervision des routeurs via SNMP.
 
-* Supervision des pare-feux
-  
-Les pare-feux pfSense ont été configurés pour la supervision via SNMP avec Zabbix, permettant la collecte en temps réel des métriques (interfaces, ressources, trafic) et l’envoi de traps SNMP pour détecter les événements critiques. Les deux figures suivantes montrent la configuration des pare-feux pfSense1 et pfSense2.
+![Monitoring Router](../images/network_monitoring/router_monitoring.png)  
+*Figure 10 : Surveillance des routeurs R1 et R2*
 
-Figure 11 : [Configuration SNMP de pfSense1](../images/network_monitoring/Configuration%20SNMP%20de%20pfSense1.png)
+---
 
-Figure 12 : [Configuration SNMP de pfSense2](../images/network_monitoring/Configuration%20SNMP%20de%20pfSense2.png)
+### 🔐 Supervision des pare-feux
 
-Nous avons désormais ajouté les deux pare-feux, pfSense1 et pfSense2, au serveur Zabbix afin d’assurer leur supervision.
+Les pare-feux **pfSense** ont été configurés pour la supervision SNMP avec Zabbix, permettant la collecte des métriques et la réception des traps.
 
-Ces figures illustrent cette intégration au sein de l’interface de surveillance.
+![SNMP pfSense1](../images/network_monitoring/pfsense1_snmp.png)  
+*Figure 11 : Configuration SNMP de pfSense1*
 
+![SNMP pfSense2](../images/network_monitoring/pfsense2_snmp.png)  
+*Figure 12 : Configuration SNMP de pfSense2*
 
-Figure 13 : [Ajout du pfSense1 au serveur Zabbix](../images/network_monitoring/Ajout%20du%20pfSense1%20au%20serveur%20Zabbix.png)
+Les pare-feux ont ensuite été ajoutés à Zabbix.
 
-Figure 14 : [Ajout du pfSense2 au serveur Zabbix](../images/network_monitoring/Ajout%20du%20pfSense2%20au%20serveur%20Zabbix.png)
+![Ajout pfSense1](../images/network_monitoring/add_pfsense1.png)  
+*Figure 13 : Ajout de pfSense1*
 
-La figure suivante illustre avec succès l’état de la surveillance, confirmant la réception et l’analyse des traps SNMP émis par les dispositifs pfSense.
+![Ajout pfSense2](../images/network_monitoring/add_pfsense2.png)  
+*Figure 14 : Ajout de pfSense2*
 
-Figure 15 : [Surveillance des pare-feux avec Zabbix](../images/network_monitoring/Surveillance%20des%20pare-feux%20avec%20Zabbix.png)
+Cette figure illustre la supervision active des pare-feux.
 
-* Supervision des machines virtuelles
+![Monitoring pfSense](../images/network_monitoring/pfsense_monitoring.png)  
+*Figure 15 : Surveillance des pare-feux*
 
-Dans cette étape, nous avons procédé à la configuration avancée de la supervision des machines virtuelles Ubuntu Server et Windows 10 en déployant et intégrant l’agent Zabbix sur chaque hôte. Cette configuration permet la remontée granulaire d’indicateurs clés tels que l’utilisation des ressources système (CPU, mémoire, disque), l’état des processus critiques ainsi que la disponibilité des services.
+---
 
-Après l’installation de l’agent Zabbix sur la machine Ubuntu Server, nous avons vérifié son état de fonctionnement afin de nous assurer qu’il est actif et opérationnel.
-Cette figure présente le statut du service Zabbix Agent sur le système.
+### 💻 Supervision des machines virtuelles
 
-Figure 16 : [État de l’agent Zabbix sur Ubuntu Server](../images/network_monitoring/État%20de%20l’agent%20Zabbix%20sur%20Ubuntu%20Server.png)
+Les machines **Ubuntu Server** et **Windows 10** ont été supervisées via le déploiement de l’agent Zabbix.
 
-La figure suivante illustre l’intégration de l’agent Zabbix avec le serveur Zabbix, confirmant ainsi l’établissement d’une communication entre les deux.
+#### 🐧 Ubuntu Server
 
-Figure 17 : [Intégration de l’agent Zabbix avec le serveur](../images/network_monitoring/Intégration%20de%20l’agent%20Zabbix%20avec%20le%20serveur.png)
+![Agent Ubuntu](../images/network_monitoring/agent_ubuntu_status.png)  
+*Figure 16 : État de l’agent Zabbix sur Ubuntu*
 
-Ensuite, nous avons ajouté la machine virtuelle Ubuntu Server au serveur Zabbix afin d’assurer sa supervision, comme le montre la figure suivante.
+![Integration Agent](../images/network_monitoring/agent_integration.png)  
+*Figure 17 : Intégration de l’agent avec le serveur*
 
-Figure 18 : [Ajout de Vm Ubuntu au serveur Zabbix](../images/network_monitoring/Ajout%20de%20Vm%20Ubuntu%20au%20serveur%20Zabbix.png)
+![Ajout Ubuntu](../images/network_monitoring/add_ubuntu.png)  
+*Figure 18 : Ajout de la VM Ubuntu*
 
-Le résultat de la supervision réalisée via Zabbix met en évidence l’évolution de l’utilisation de l’espace disque sur la machine virtuelle Ubuntu Server, offrant un suivi précis de la consommation des ressources de stockage et facilitant l’anticipation des besoins futurs, comme le montre la figure qui suit.
+![Monitoring Ubuntu](../images/network_monitoring/monitoring_ubuntu.png)  
+*Figure 19 : Supervision du serveur Ubuntu*
 
+---
 
-Figure 19 : [Supervision du serveur Ubuntu](../images/network_monitoring/Monitoring%20du%20Serveur%20Ubuntu.png)
+#### 🪟 Windows 10
 
+![Config Agent Windows](../images/network_monitoring/agent_windows_config.png)  
+*Figure 20 : Configuration de l’agent Zabbix sur Windows*
 
-Après l’installation réussie de l’agent Zabbix sur la machine virtuelle Windows 10, nous avons procédé à sa configuration afin d’assurer une communication efficace avec le serveur Zabbix.
+![Ajout Windows](../images/network_monitoring/add_windows.png)  
+*Figure 21 : Ajout de la VM Windows*
 
-La figure suivante illustre cette étape.
-
-Figure 20 : [Configuration de l’agent Zabbix sur Windows 10](../images/network_monitoring/Configuration%20de%20l’agent%20Zabbix%20sur%20Windows%2010.png)
-
-Par la suite, nous avons procédé à l’ajout de la VM Windows 10 au serveur Zabbix afin d’en assurer la supervision, comme présenté dans la figure suivante.
-
-Figure 21 : [Ajout de Vm Windows 10 au serveur Zabbix](../images/network_monitoring/Ajout%20de%20Vm%20Windows%2010%20au%20serveur%20Zabbix.png)
-
-Cette figure illustre le résultat de la supervision réalisée via Zabbix sur la machine virtuelle Windows 10.
-
-Figure 22 : [Supervision du système Windows 10](../images/network_monitoring/Monitoring%20du%20système%20Windows%2010.png)
-
-
+![Monitoring Windows](../images/network_monitoring/monitoring_windows.png)  
+*Figure 22 : Supervision du système Windows*
