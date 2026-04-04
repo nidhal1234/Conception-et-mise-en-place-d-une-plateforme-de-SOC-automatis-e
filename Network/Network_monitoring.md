@@ -8,7 +8,7 @@ Dans cette partie, nous avons intégré **Zabbix** au sein de notre architecture
 
 Cette figure illustre l’intégration du serveur Zabbix dans l’architecture réseau.
 
-![Intégration Zabbix](../images/network_monitoring/integration_zabbix.png)  
+![Intégration Zabbix](../images/network_monitoring/Intégration_du_serveur_Zabbix_dans_architecture_reseau.png)  
 *Figure 1 : Intégration du serveur Zabbix dans l’architecture réseau*
 
 ---
