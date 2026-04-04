@@ -1,70 +1,106 @@
-* Déploiement des agents Wazuh
+# 📊 Supervision SIEM avec Wazuh
 
-Dans cette phase, nous avons procédé au déploiement des agents Wazuh sur deux machines virtuelles de notre maquette réseau, à savoir Ubuntu Server et Windows 10. Cette opération a permis d’assurer la collecte, la remontée et la centralisation des journaux d’activité et des événements de sécurité générés par ces hôtes, en les rattachant au serveur Wazuh principal pour un suivi en temps réel.
+Dans cette section, nous présentons l’intégration de **Wazuh** dans notre maquette réseau pour la collecte, la centralisation et l’analyse des journaux d’activité et des événements de sécurité. Cette solution permet une supervision en temps réel des systèmes et des pare-feux, ainsi qu’une corrélation avec les techniques MITRE ATT&CK.
 
-Pour le déploiement de l’agent Wazuh sur la machine Ubuntu, il est nécessaire d’enregistrer préalablement cet hôte depuis l’interface d’administration du serveur Wazuh. Cette étape permet de générer les clés d’authentification requises pour établir une communication sécurisée entre l’agent et le
-serveur, comme illustré dans la figure suivante.
+---
 
-Figure 1 : [Ajout d’agent Ubuntu](../images/SOC/Ajout%20d’agent%20Ubuntu.png)
+## 🛠️ Déploiement des agents Wazuh
 
-Ensuite, nous avons procédé à l’installation de l’agent Wazuh sur notre système linux, suivie de la vérification de son état de fonctionnement, comme le montre la figure suivante.
+Les agents Wazuh ont été déployés sur deux machines virtuelles : **Ubuntu Server** et **Windows 10**, afin d’assurer la collecte et la remontée des logs vers le serveur principal.
 
-Figure 2 : [État wazuh-agent sur Ubuntu Server](../images/SOC/État%20wazuh-agent%20sur%20Ubuntu%20Server.png)
+### 🐧 Ubuntu Server
 
-Puis nous devons ajouter l’adresse IP de notre serveur wazuh dans le fichier de configuration de l’agent, comme le montre la figure suivante.
+1. **Enregistrement de l’hôte sur le serveur Wazuh**  
+   Cette étape permet de générer les clés d’authentification pour établir une communication sécurisée entre l’agent et le serveur.  
+   ![Ajout d’agent Ubuntu](../images/siem/agent_ubuntu_add.png)  
+   *Figure 1 : Ajout de l’agent Ubuntu sur le serveur Wazuh*
 
-Figure 3 : [Configuration du wazuh-agent sur Ubuntu](../images/SOC/Configuration%20du%20wazuh-agent%20sur%20Ubuntu.png)
+2. **Installation et vérification de l’agent**  
+   Après installation, l’état de l’agent est vérifié pour confirmer son bon fonctionnement.  
+   ![État Wazuh Agent Ubuntu](../images/siem/agent_ubuntu_status.png)  
+   *Figure 2 : État du Wazuh Agent sur Ubuntu Server*
 
-Pour déployer l’agent Wazuh sur la machine Windows, il est nécessaire d’enregistrer l’hôte via l’interface du serveur Wazuh pour établir une communication sécurisée entre l’agent et le serveur, comme illustré dans la figure suivante.
+3. **Configuration de l’agent**  
+   L’adresse IP du serveur Wazuh est ajoutée dans le fichier de configuration pour établir la connexion.  
+   ![Configuration Wazuh Agent Ubuntu](../images/siem/agent_ubuntu_config.png)  
+   *Figure 3 : Configuration du Wazuh Agent sur Ubuntu*
 
-Figure 4 : [Ajout d’agent Windows](../images/SOC/Ajout%20d’agent%20Windows.png)
+---
 
-Nous avons ensuite installé l’agent Wazuh sur notre machine virtuelle Windows, puis vérifié son état de fonctionnement, comme le montre la figure suivante.
+### 🪟 Windows 10
 
-Figure 5 : [État wazuh-agent sur Windows 10](../images/SOC/État%20wazuh-agent%20sur%20Windows%2010.png)
+1. **Enregistrement de l’hôte sur le serveur Wazuh**  
+   La machine Windows est enregistrée sur le serveur pour générer les clés d’authentification sécurisées.  
+   ![Ajout d’agent Windows](../images/siem/agent_windows_add.png)  
+   *Figure 4 : Ajout de l’agent Windows sur le serveur Wazuh*
 
-Cette figure présente la liste des agents visibles depuis l’interface de gestion de Wazuh, confirmant leur ajout réussi et leur communication active avec le serveur après le déploiement des agents.
+2. **Installation et vérification de l’agent**  
+   L’état de l’agent est vérifié après installation pour confirmer sa communication avec le serveur.  
+   ![État Wazuh Agent Windows](../images/siem/agent_windows_status.png)  
+   *Figure 5 : État du Wazuh Agent sur Windows 10*
 
-Figure 6 : [Agents de Wazuh](../images/SOC/Agents%20de%20Wazuh.png)
+---
 
-La figure suivante nous montre que le serveur Wazuh commence à intercepter les journaux et les alertes des différents niveau à partir de l’agent Windows.
+### 📋 Liste des agents
 
-Figure 7 : [Les logs de la machine Windows](../images/SOC/Les%20logs%20de%20la%20machine%20Windows.png)
+Le serveur Wazuh affiche la liste des agents enregistrés, confirmant leur communication active.  
+![Agents Wazuh](../images/siem/agents_list.png)  
+*Figure 6 : Agents Wazuh actifs sur le serveur*
 
-Cette figure nous montre que le serveur Wazuh commence à intercepter les journaux et les alertes des diffèrents niveaux à partir de l’agent Ubuntu.
+---
 
-Figure 8 : [Les logs de la machine Ubuntu](../images/SOC/Les%20logs%20de%20la%20machine%20Ubuntu.png)
+### 📈 Collecte des journaux
 
-La figure suivante illustre les techniques MITRE ATT&CK associées aux activités observées sur la machine Windows 10.
+#### Windows 10
+Le serveur Wazuh intercepte les logs et alertes générés par l’agent Windows.  
+![Logs Windows](../images/siem/logs_windows.png)  
+*Figure 7 : Journaux et alertes collectés depuis Windows 10*
 
-Figure 9 : [MITRE ATT&CK pour Windows](../images/SOC/MITRE%20ATT&CK%20pour%20Windows.png)
+#### Ubuntu Server
+Le serveur Wazuh intercepte également les logs et alertes générés par l’agent Ubuntu.  
+![Logs Ubuntu](../images/siem/logs_ubuntu.png)  
+*Figure 8 : Journaux et alertes collectés depuis Ubuntu Server*
 
-Cette figure illustre les techniques MITRE ATT&CK associées aux activités observées sur la machine Ubuntu.
+---
 
-Figure 10 : [MITRE ATT&CK pour Ubuntu](../images/SOC/MITRE%20ATT&CK%20pour%20Ubuntu.png)
+### 🛡️ Analyse MITRE ATT&CK
 
-* Surveillance des pare-feux
+#### Windows 10
+Les activités observées sur la machine Windows sont corrélées avec les techniques MITRE ATT&CK.  
+![MITRE ATT&CK Windows](../images/siem/mitre_windows.png)  
+*Figure 9 : Techniques MITRE ATT&CK pour Windows 10*
 
-Pour appliquer efficacement la surveillance Wazuh aux pare-feux pfSense, il est impératif de configurer ces derniers afin qu’ils transmettent leurs journaux d’activité au serveur Wazuh. Cette opération repose sur l’activation de l’option de journalisation distante (Remote Logging) dans l’interface d’administration de pfSense, en spécifiant l’adresse IP du serveur Wazuh comme destination. Les logs sont envoyés via le protocole UDP, généralement sur le port 514, ce qui permet au serveur de centraliser et d’analyser les événements de sécurité générés par les pare-feux en temps réel. Cette configuration constitue la première étape essentielle pour une supervision complète et continue de l’activité réseau filtrée par pfSense.
+#### Ubuntu Server
+Les activités observées sur la machine Ubuntu sont également analysées avec MITRE ATT&CK.  
+![MITRE ATT&CK Ubuntu](../images/siem/mitre_ubuntu.png)  
+*Figure 10 : Techniques MITRE ATT&CK pour Ubuntu Server*
 
-La figure suivante illustre l’activation de la journalisation distante sur le pare-feu pfSense1.
+---
 
-Figure 11 : [Configuration du Syslog sur pfSense1](../images/SOC/Configuration%20du%20Syslog%20sur%20pfSense1.png)
+## 🔐 Surveillance des pare-feux pfSense
 
-Cette figure illustre l’activation de la journalisation distante sur le pare-feu pfSense2.
+Pour superviser les pare-feux via Wazuh, il est nécessaire de configurer la **journalisation distante (Remote Logging)**, en indiquant l’adresse IP du serveur Wazuh et en utilisant le port UDP 514.
 
-Figure 12 : [Configuration du Syslog sur pfSense2](../images/SOC/Configuration%20du%20Syslog%20sur%20pfSense2.png)
+### pfSense1
 
-Le serveur Wazuh a été configuré pour recevoir les logs syslog des pare-feux pfSense, permettant une collecte centralisée et continue des événements de sécurité. 
+1. **Configuration du Syslog**  
+   ![Syslog pfSense1](../images/siem/pfsense1_syslog.png)  
+   *Figure 11 : Activation de la journalisation distante sur pfSense1*
 
-La figure suivante illustre cette configuration.
+2. **Surveillance via Wazuh**  
+   ![Surveillance pfSense1](../images/siem/pfsense1_monitoring.png)  
+   *Figure 12 : Supervision effective de pfSense1 via Wazuh*
 
-Figure 13 : [Configuration de Syslog sur le serveur Wazuh](../images/SOC/Configuration%20de%20Syslog%20sur%20le%20serveur%20Wazuh.png)
+### pfSense2
 
-Cette figure montre la surveillance effective de pfSense1 via le serveur Wazuh.
+1. **Configuration du Syslog**  
+   ![Syslog pfSense2](../images/siem/pfsense2_syslog.png)  
+   *Figure 13 : Activation de la journalisation distante sur pfSense2*
 
-Figure 14 : [Surveillance de pfSense1 via Wazuh](../images/SOC/Surveillance%20de%20pfSense1%20via%20Wazuh.png)
+2. **Surveillance via Wazuh**  
+   ![Surveillance pfSense2](../images/siem/pfsense2_monitoring.png)  
+   *Figure 14 : Supervision effective de pfSense2 via Wazuh*
 
-La figure suivante montre la surveillance effective de pfSense2 via le serveur Wazuh.
+---
 
-Figure 15 : [Surveillance de pfSense2 via Wazuh](../images/SOC/Surveillance%20de%20pfSense2%20via%20Wazuh.png)
+Ce document présente une vue complète de la **supervision SIEM** avec Wazuh, incluant le déploiement des agents, la collecte des logs, l’analyse MITRE ATT&CK et la surveillance des pare-feux pfSense.
