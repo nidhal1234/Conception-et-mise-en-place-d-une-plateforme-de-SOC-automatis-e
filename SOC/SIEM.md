@@ -69,14 +69,18 @@ La figure suivante présente cette liste d’agents actifs.
 ### 📈 Collecte des journaux
 
 #### Windows 10
+
 Le serveur Wazuh intercepte les logs et alertes générés par l’agent Windows.  
-La figure ci-dessous montre les journaux collectés depuis Windows 10.  
-![Logs Windows](../images/siem/logs_windows.png)  
+La figure ci-dessous montre les journaux collectés depuis Windows 10.
+
+![Logs Windows](../images/SOC/Les_logs_de_la_machine_Windows.png)  
 *Figure 7 : Journaux et alertes collectés depuis Windows 10*
 
 #### Ubuntu Server
+
 Le serveur Wazuh intercepte également les logs et alertes générés par l’agent Ubuntu.  
 La figure suivante illustre ces journaux.  
+
 ![Logs Ubuntu](../images/siem/logs_ubuntu.png)  
 *Figure 8 : Journaux et alertes collectés depuis Ubuntu Server*
 
@@ -85,9 +89,11 @@ La figure suivante illustre ces journaux.
 ### 🛡️ Analyse MITRE ATT&CK
 
 #### Windows 10
+
 Les activités observées sur la machine Windows sont corrélées avec les techniques MITRE ATT&CK.  
-La figure ci-dessous illustre cette corrélation.  
-![MITRE ATT&CK Windows](../images/siem/mitre_windows.png)  
+La figure ci-dessous illustre cette corrélation.
+
+![MITRE ATT&CK Windows](../images/SOC/Les_logs_de_la_machine_Ubuntu.png)  
 *Figure 9 : Techniques MITRE ATT&CK pour Windows 10*
 
 #### Ubuntu Server
