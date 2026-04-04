@@ -67,7 +67,7 @@ Cette figure montre la réussite de la connexion de PC1 vers Internet.
 
 Cette figure illustre l’accès à Internet depuis PC3, validant la configuration réseau pour le VLAN 20.
 
-![PC3 vers Internet](../images/network_configuration/Connection_de_PC3_de_VLAN20_à_internet.png)  
+![PC3 vers Internet](../images/network_configuration/Connection_de_PC3_de_VLAN20_a_internet.png)  
 *Figure 9 : PC3 vers Internet*
 
 Cette figure présente la connectivité du serveur Ubuntu vers Internet, confirmant le bon fonctionnement de la passerelle réseau.
