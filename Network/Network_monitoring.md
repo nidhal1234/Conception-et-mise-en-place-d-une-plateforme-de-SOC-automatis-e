@@ -38,7 +38,7 @@ Les figures ci-dessous présentent la surveillance du trafic des interfaces du c
 ![Interfaces 0-1](../images/network_monitoring/Surveillance_des_interfaces_Gi00_et_Gi01_de_commutateur_ESW4_avec_Zabbix.png)  
 *Figure 6 : Interfaces Gi0/0 et Gi0/1*
 
-![Interfaces 2-3](../images/network_monitoring/Surveillance_des_interfaces_Gi02_et_Gi03_de_commutateur_ESW4 avec_Zabbix.png)  
+![Interfaces 2-3](../images/network_monitoring/Surveillance_des_interfaces_Gi02_et_Gi03_de_commutateur_ESW4_avec_Zabbix.png)  
 *Figure 7 : Interfaces Gi0/2 et Gi0/3*
 
 ---
