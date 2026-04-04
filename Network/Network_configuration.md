@@ -29,7 +29,7 @@ Tests réalisés pour vérifier la communication entre VLANs et l’accès Inter
 
 ![pfSense1 Master](../images/network_configuration/PfSense1_comme_Master.png)
 
- *Figure 5 : pfSense1 Master* 
+ *Figure 5 : pfSense1 → Master* 
 
  ![pfSense2 Backup](../images/network_configuration/pfSense2_comme_Backup.png)
 
