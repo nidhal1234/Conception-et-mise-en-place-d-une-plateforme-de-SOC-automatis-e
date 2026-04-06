@@ -18,8 +18,9 @@ Il couvre la configuration des équipements réseau, l’intégration des outils
 
 ### 1. Architecture réseau cible
 Représente le réseau opérationnel avant l’intégration des outils SOC.  
-La configuration comprend VLAN, sous-réseaux, liaisons inter-switches et interconnexion des routeurs.  
-L’ensemble de l’architecture est **entièrement provisionné et opérationnel**.
+La configuration comprend VLAN, sous-réseaux, liaisons inter-switches, interconnexion des routeurs et la mise en place de pare-feux périmétriques **pfSense**.  
+Ces derniers assurent une sécurisation robuste du trafic réseau, le filtrage des accès, la journalisation centralisée et la protection contre les menaces externes.  
+L’ensemble de l’architecture est entièrement provisionné et opérationnel.
 
 ![Architecture réseau cible](./images/network_configuration/Architecture_Reseau.png)  
 *Architecture réseau cible, entièrement*
