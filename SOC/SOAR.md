@@ -53,7 +53,8 @@ MISP a été configuré comme analyseur principal pour les indicateurs de compro
 
 L’intégration a été réalisée en configurant l’URL du serveur MISP ainsi que la clé API dans Cortex, permettant une communication sécurisée.  
 La figure suivante illustre cette intégration.  
-![Integration Cortex MISP](../images/soar/cortex_misp.png)  
+
+![Integration Cortex MISP](../images/SOC/Intégration_Cortex_et_MISP.png)  
 *Figure 5 : Intégration de Cortex et MISP*
 
 ---
