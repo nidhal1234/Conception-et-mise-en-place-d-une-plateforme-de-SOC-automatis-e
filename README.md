@@ -71,3 +71,9 @@ Ces tests démontrent l’efficacité du SOC pour la **supervision proactive**, 
 ---
 
 ## 📂 Organisation des fichiers
+
+- `README.md` : documentation principale  
+- `Test.md` : description des tests réalisés  
+- `SOC.md` : intégration et configuration SOC  
+- `SIEM.md` : configuration de la supervision Wazuh  
+- `images/` : captures d’écran et schémas d’architecture
