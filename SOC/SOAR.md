@@ -24,7 +24,8 @@ La figure suivante montre l’interface graphique de MISP accessible via un navi
 
 Un utilisateur administrateur a ensuite été créé afin de gérer la plateforme.  
 La figure suivante illustre cette étape.  
-![User MISP](../images/soar/misp_user.png)  
+
+![User MISP](../images/SOC/Création_utilisateur_au_niveau_de_MISP.png)  
 *Figure 2 : Création d’un utilisateur au niveau de MISP*
 
 ---
