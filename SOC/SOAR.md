@@ -36,12 +36,13 @@ Le conteneur **Cortex** ainsi que son moteur **Elasticsearch** ont été intégr
 
 La figure suivante montre l’interface graphique de Cortex accessible via le port 9001. 
 
-![Interface Cortex](../images/soar/cortex_interface.png)  
+![Interface Cortex](../images/SOC/Interface_graphique_de_Cortex.png)  
 *Figure 3 : Interface graphique de Cortex*
 
 Un utilisateur a ensuite été configuré avec les permissions nécessaires.  
 La figure suivante présente cette configuration.  
-![User Cortex](../images/soar/cortex_user.png)  
+
+![User Cortex](../images/SOC/Création_utilisateur_au_niveau_de_Cortex.pngg)  
 *Figure 4 : Création d’un utilisateur au niveau de Cortex*
 
 ---
