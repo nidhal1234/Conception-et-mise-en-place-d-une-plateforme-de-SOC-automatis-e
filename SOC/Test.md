@@ -50,7 +50,7 @@ Le cas comporte les **observables** créés, où les résultats des analyseurs d
 
 L’analyseur **Cortex** a traité l’artefact et généré un **rapport d’analyse**, dont les résultats sont présentés ci-dessous.  
 
-![Rapport Cortex](../images/images/Test/Rapport_sur_Cortex.jpg)  
+![Rapport Cortex](../images/Test/Rapport_sur_Cortex.jpg)  
 *Figure 7 : Rapport Cortex pour attaque par force brute*  
 
 ![Rapport TheHive](../images/Test/Rapport_sur_TheHive.jpg)  
