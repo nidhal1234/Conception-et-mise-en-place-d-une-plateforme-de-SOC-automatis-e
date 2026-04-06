@@ -23,7 +23,7 @@ Ces derniers assurent une sécurisation robuste du trafic réseau, le filtrage d
 L’ensemble de l’architecture est entièrement provisionné et opérationnel.
 
 ![Architecture réseau cible](./images/network_configuration/Architecture_Reseau.png)  
-*Architecture réseau cible, entièrement*
+*Architecture réseau cible*
 
 ### 2. Architecture SOC
 Solution SOC déployée pour superviser le réseau, détecter les incidents et orchestrer la réponse automatisée.  
