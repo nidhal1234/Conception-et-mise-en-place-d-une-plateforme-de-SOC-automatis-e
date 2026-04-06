@@ -89,7 +89,8 @@ Après l’intégration des analyseurs, un test a été réalisé afin de valide
 
 Les résultats ont été correctement enregistrés dans l’historique des tâches de Cortex.  
 La figure suivante illustre ces résultats.  
-![Test Analyseurs](../images/soar/cortex_test.png)  
+
+![Test Analyseurs](../images/SOC/Test_des_analyseurs.jpg)  
 *Figure 8 : Test des analyseurs dans Cortex*
 
 ---
