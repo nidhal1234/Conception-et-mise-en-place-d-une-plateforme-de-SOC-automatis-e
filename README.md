@@ -72,8 +72,15 @@ Ces tests démontrent l’efficacité du SOC pour la **supervision proactive**, 
 
 ## 📂 Organisation des fichiers
 
-- `README.md` : documentation principale  
-- `Test.md` : description des tests réalisés  
-- `SOC.md` : intégration et configuration SOC  
-- `SIEM.md` : configuration de la supervision Wazuh  
-- `images/` : captures d’écran et schémas d’architecture
+- `README.md` : documentation principale du projet, présentant l’architecture, les objectifs et l’organisation générale.  
+- `Network/` : dossier relatif à la partie réseau.  
+- `Network_configuration.md` : documentation détaillée de la configuration réseau, incluant VLAN, sous-réseaux, routeurs, switches et pare-feux.  
+- `Network_monitoring.md` : supervision réseau, outils et méthodologies de monitoring pour assurer la disponibilité et la sécurité.  
+- `SOC/` : dossier dédié à la partie SOC.  
+- `SIEM.md` : configuration et déploiement de la supervision SIEM avec Wazuh, collecte et corrélation des événements de sécurité.  
+- `SOAR.md` : déploiement et utilisation des outils TheHive, Cortex et MISP pour l’orchestration, l’automatisation et la réponse aux incidents de sécurité.  
+- `Test.md` : description des scénarios de tests, simulations d’attaques et validation de l’efficacité des solutions SOC.  
+- `images/` : captures d’écran, schémas d’architecture et illustrations pour documentation et reporting.
+
+  
+
