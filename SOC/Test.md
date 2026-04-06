@@ -40,20 +40,20 @@ Dès la détection de l’alerte par Wazuh, une alerte correspondante a été au
 
 Une fois l’alerte transmise à TheHive, nous l’avons ouverte afin d’en analyser les éléments contextuels.  
 
-![Vue TheHive](../images/Test/05_vue_thehive_bruteforce.jpg)  
+![Vue TheHive](../images/Test/Aperçu_alerte_de_force_brute.png)  
 *Figure 5 : Aperçu de l’alerte de force brute dans TheHive*
 
 Le cas comporte les **observables** créés, où les résultats des analyseurs de Cortex sont accessibles.  
 
-![Observables Cortex](../images/Test/06_observables_cortex_bruteforce.jpg)  
+![Observables Cortex](../images/Test/Observables_attaque_par_force_brute.jpg)  
 *Figure 6 : Observables de l’attaque par force brute*
 
 L’analyseur **Cortex** a traité l’artefact et généré un **rapport d’analyse**, dont les résultats sont présentés ci-dessous.  
 
-![Rapport Cortex](../images/Test/07_rapport_cortex_bruteforce.jpg)  
+![Rapport Cortex](../images/images/Test/Rapport_sur_Cortex.jpg)  
 *Figure 7 : Rapport Cortex pour attaque par force brute*  
 
-![Rapport TheHive](../images/Test/08_rapport_thehive_bruteforce.jpg)  
+![Rapport TheHive](../images/Test/Rapport_sur_TheHive.jpg)  
 *Figure 8 : Rapport TheHive pour attaque par force brute*
 
 ---
