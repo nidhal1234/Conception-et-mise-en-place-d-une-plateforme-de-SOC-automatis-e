@@ -20,7 +20,7 @@ Pour ce test, l’outil **Hydra** a été utilisé afin de tenter des connexions
 - `users.txt` : liste d’identifiants  
 - `passwords.txt` : liste de mots de passe  
 
-![Attaque brute force](../images/Test/02_attaque_par_force_brute.jpg)  
+![Attaque brute force](../images/Test/Attaque_par_force_brute.png)  
 *Figure 2 : Attaque par force brute*
 
 Suite au lancement de l’attaque par force brute, une alerte a été immédiatement générée et reçue sur la plateforme **Wazuh**.  
@@ -30,12 +30,12 @@ Cette alerte détaille notamment :
 - l’adresse IP de la machine attaquante  
 - le port réseau exploité lors de l’attaque  
 
-![Alerte Wazuh](../images/Test/03_alerte_wazuh_bruteforce.jpg)  
+![Alerte Wazuh](../images/Test/Alerte_attaque_sur_Wazuh.png)  
 *Figure 3 : Alerte Wazuh pour attaque par force brute*
 
 Dès la détection de l’alerte par Wazuh, une alerte correspondante a été automatiquement créée dans **TheHive**.  
 
-![Alerte TheHive](../images/Test/04_alerte_thehive_bruteforce.jpg)  
+![Alerte TheHive](../images/Test/Alerte_attaque_par_force_brute_créée.jpg)  
 *Figure 4 : Alerte de l’attaque par force brute créée dans TheHive*
 
 Une fois l’alerte transmise à TheHive, nous l’avons ouverte afin d’en analyser les éléments contextuels.  
