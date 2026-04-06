@@ -28,7 +28,7 @@ L’ensemble de l’architecture est **entièrement provisionné et opérationne
 Solution SOC déployée pour superviser le réseau, détecter les incidents et orchestrer la réponse automatisée.  
 Inclut la collecte des logs, l’analyse des événements et la corrélation avec des référentiels comme **MITRE ATT&CK**.
 
-![Architecture SOC](../images/SOC/Architecture_reseau_securisee_avec_SOC.png)  
+![Architecture SOC](./images/SOC/Architecture_reseau_securisee_avec_SOC.png)  
 *Architecture SOC intégrée et opérationnelle*
 
 ### 3. Architecture réseau avec SOC
