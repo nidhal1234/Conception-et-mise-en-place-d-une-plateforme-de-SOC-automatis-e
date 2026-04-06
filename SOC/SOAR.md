@@ -146,18 +146,21 @@ Dans cette phase, nous avons intégré **TheHive** avec **Wazuh** afin d’autom
 
 Le module **TheHive4py** a été installé sur le serveur Wazuh pour assurer la communication entre les plateformes.  
 La figure suivante montre cette installation.  
-![TheHive4py](../images/soar/thehive4py.png)  
+
+![TheHive4py](../images/SOC/Installation_de_TheHive4py_sur_Wazuh.png)  
 *Figure 15 : Installation de TheHive4py sur Wazuh*
 
 La configuration a été réalisée en ajoutant l’URL, le port et la clé API de TheHive dans le fichier `/var/ossec/etc/ossec.conf`.  
 La figure suivante illustre cette configuration.  
-![Integration Wazuh TheHive](../images/soar/wazuh_thehive.png)  
+
+![Integration Wazuh TheHive](../images/SOC/Intégration_Wazuh_et_TheHive.png)  
 *Figure 16 : Intégration de Wazuh et TheHive*
 
 Suite à cette intégration, les alertes générées par Wazuh sont automatiquement remontées dans TheHive pour analyse.
 
 La figure suivante montre ces alertes.  
-![Alertes TheHive](../images/soar/thehive_alerts.png)  
+
+![Alertes TheHive](../images/SOC/Alertes_TheHive.png)  
 *Figure 17 : Alertes Wazuh remontées dans TheHive*
 
 ---
