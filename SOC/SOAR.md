@@ -116,22 +116,26 @@ La figure suivante illustre cette étape.
 
 L’intégration avec Cortex a été réalisée en configurant les paramètres nécessaires (clé API, port).
 
-La figure suivante montre cette configuration.  
-![Integration TheHive Cortex](../images/soar/thehive_cortex.png)  
+La figure suivante montre cette configuration. 
+
+![Integration TheHive Cortex](../images/SOC/Intégration_TheHive_et_Cortex.jpg)  
 *Figure 11 : Intégration de TheHive et Cortex*
 
 Pour l’intégration avec MISP, un répertoire de configuration contenant l’URL, la clé API et l’identifiant de l’organisation a été créé et monté dans le conteneur TheHive.
 
 La figure suivante illustre cette configuration.  
-![Integration TheHive MISP Config](../images/soar/thehive_misp_config.png)  
+
+![Integration TheHive MISP Config](../images/SOC/Repertoire_intégration_TheHive_et_MISP.jpg)  
 *Figure 12 : Répertoire d’intégration de TheHive et MISP*
 
 La figure suivante montre l’intégration effective entre TheHive et MISP.  
-![Integration TheHive MISP](../images/soar/thehive_misp.png)  
+
+![Integration TheHive MISP](../images/SOC/Integration_TheHive_et_MISP.jpg)  
 *Figure 13 : Intégration de TheHive et MISP*
 
-La figure ci-dessous confirme l’intégration complète des plateformes.  
-![Integrations](../images/soar/thehive_integrations.png)  
+La figure ci-dessous confirme l’intégration complète des plateformes. 
+
+![Integrations](../images/SOC/Plateformes_intégrees.png)  
 *Figure 14 : Plateformes intégrées dans TheHive*
 
 ---
