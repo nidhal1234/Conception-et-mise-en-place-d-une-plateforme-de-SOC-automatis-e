@@ -1,96 +1,166 @@
+# 🤖 Orchestration et Automatisation SOAR
 
-Pour automatiser notre architecture, nous avons besoin d’intégrer la partie SOAR. À cet effet, les différents composants de la solution ont été déployés sur un serveur Ubuntu, déjà intégré à notre architecture réseau au niveau du VLAN 77.
+Ce document présente la mise en place d’une solution **SOAR (Security Orchestration, Automation and Response)** basée sur les plateformes **MISP**, **Cortex** et **TheHive**. Cette solution permet d’automatiser le traitement des incidents de sécurité, d’améliorer la corrélation des événements et d’optimiser la réponse aux menaces.
 
-Pour la mise en place de MISP nous avons créé un fichier Docker Compose décrivant une architecture multi-services destinée au déploiement de la plateforme MISP.
-Afin de créer et lancer les conteneurs, nous avons utilisé la commande docker compose up, permettant le déploiement des services en arrière-plan.
+L’ensemble des composants a été déployé sur un serveur **Ubuntu**, intégré à l’architecture réseau au niveau du **VLAN 77**.
 
-Voila l’interface graphique de la plateforme MISP est accessible via un navigateur web, comme illustré dans la figure suivante, confirmant ainsi le bon déploiement du service.
+🔗 Documentation officielle :  
+- https://www.misp-project.org/  
+- https://docs.thehive-project.org/  
+- https://docs.strangebee.com/cortex/
 
-Figure 1 : [Interface graphique de MISP](../images/SOC/Interface%20graphique%20de%20MISP.png)
+---
 
-Nous avons ensuite créé un compte utilisateur que nous avons configuré avec des privilèges administratifs pour l’organisation, assurant ainsi une gestion complète de la plateforme, comme illustré dans la figure suivante.
+## 📌 Table des matières
 
+1. [Déploiement de MISP](#déploiement-de-misp)  
+2. [Déploiement de Cortex](#déploiement-de-cortex)  
+3. [Intégration de Cortex et MISP](#intégration-de-cortex-et-misp)  
+4. [Intégration des analyseurs](#intégration-des-analyseurs)  
+   - [VirusTotal](#virustotal)  
+   - [AbuseIPDB](#abuseipdb)  
+   - [Test des analyseurs](#test-des-analyseurs)  
+5. [Déploiement de TheHive](#déploiement-de-thehive)  
+6. [Intégration de TheHive avec Cortex et MISP](#intégration-de-thehive-avec-cortex-et-misp)  
+7. [Intégration SOAR et SIEM](#intégration-soar-et-siem)  
 
-Figure 2 : [Création d’un utilisateur au niveau de MISP](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20MISP.png)
+---
 
-Nous avons intégré, dans le fichier Docker Compose, la configuration du conteneur Cortex ainsi que celle de son moteur de données Elasticsearch, afin d’assurer un déploiement cohérent et fonctionnel de l’environnement SOAR.
+## 🧩 Déploiement de MISP
 
-L’accès à l’interface graphique de Cortex a été configuré avec succès et est désormais disponible via un navigateur web sur le port 9001, comme présenté dans la figure suivante.
+Pour la mise en place de la plateforme MISP, un fichier **Docker Compose** a été utilisé afin de déployer une architecture multi-services.
 
-Figure 3 : [Interface graphique de Cortex](../images/SOC/Interface%20graphique%20de%20Cortex.png)
+Les conteneurs ont été lancés via la commande `docker compose up -d`, permettant un déploiement en arrière-plan.
 
-L’étape suivante a consisté à créer un utilisateur au niveau de Cortex, puis à lui attribuer les permissions requises afin d’assurer une gestion complète de la plateforme, comme illustré dans la figure suivante.
+La figure suivante montre l’interface graphique de MISP accessible via un navigateur web, confirmant le bon fonctionnement du service.  
+![Interface MISP](../images/soar/misp_interface.png)  
+*Figure 1 : Interface graphique de MISP*
 
-Figure 4 : [Création d’un utilisateur au niveau de Cortex](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20Cortex.png)
+Un utilisateur administrateur a ensuite été créé afin de gérer la plateforme.  
+La figure suivante illustre cette étape.  
+![User MISP](../images/soar/misp_user.png)  
+*Figure 2 : Création d’un utilisateur au niveau de MISP*
 
-* Intégration de Cortex et MISP
+---
 
-Nous avons choisi MISP comme analyseur principal pour nos IOCs et configuré son intégrationvia la clé API et l’URL du serveur, assurant ainsi une communication sécurisée entre les plateformes.
-La configuration est présentée dans la figure suivante.
+## ⚙️ Déploiement de Cortex
 
-Figure 5 : [Intégration de Cortex et MISP](../images/SOC/Intégration%20de%20Cortex%20et%20MISP.png)
+Le conteneur **Cortex** ainsi que son moteur **Elasticsearch** ont été intégrés dans Docker Compose afin d’assurer un déploiement cohérent.
 
-* Intégration de VirusTotal dans Cortex
-  
-VirusTotal est un service en ligne permettant d’analyser des fichiers et des URL afin de détecter différents types de menaces, tels que les virus, vers et chevaux de Troie, en s’appuyant sur plusieurs moteurs antivirus. Il permet également d’identifier d’éventuels faux positifs. Dans ce contexte, son intégration au sein de la plateforme Cortex permet d’enrichir les capacités d’analyse et de détection. Afin de mettre en œuvre cette intégration, il est nécessaire de configurer les paramètres requis et d’ajouter la clé API correspondante afin d’activer l’intégration, comme illustré dans la figure suivante.
+La figure suivante montre l’interface graphique de Cortex accessible via le port 9001.  
+![Interface Cortex](../images/soar/cortex_interface.png)  
+*Figure 3 : Interface graphique de Cortex*
 
-Figure 6 : [Ajout de l’analyseur VirusTotal](../images/SOC/Ajout%20de%20l’analyseur%20VirusTotal.png)
+Un utilisateur a ensuite été configuré avec les permissions nécessaires.  
+La figure suivante présente cette configuration.  
+![User Cortex](../images/soar/cortex_user.png)  
+*Figure 4 : Création d’un utilisateur au niveau de Cortex*
 
-* Intégration de AbuseIPDB dans Cortex
-  
-AbuseIPDB est une plateforme dédiée à la lutte contre les activités malveillantes sur Internet, telles que les attaques de pirates, le spam et autres comportements abusifs. Elle permet de signaler une adresse IP associée à une activité suspecte, ainsi que de vérifier la réputation d’une adresse IP via son moteur de recherche. L’intégration de ce service au sein de la plateforme Cortex est présentée dans la figure suivante.
+---
 
-Figure 7 : [Ajout de l’analyseur AbuseIPDB](../images/SOC/Ajout%20de%20l’analyseur%20AbuseIPDB.png)
+## 🔗 Intégration de Cortex et MISP
 
-Après l’ajout des analyseurs avec succès, nous avons procédé à un test d’analyse afin de vérifier leur bon fonctionnement. Les résultats obtenus ont été correctement générés et enregistrés dans l’historique des tâches (Job History) de Cortex, comme le montre la figure suivante.
+MISP a été configuré comme analyseur principal pour les indicateurs de compromission (IOCs).
 
+L’intégration a été réalisée en configurant l’URL du serveur MISP ainsi que la clé API dans Cortex, permettant une communication sécurisée.  
+La figure suivante illustre cette intégration.  
+![Integration Cortex MISP](../images/soar/cortex_misp.png)  
+*Figure 5 : Intégration de Cortex et MISP*
 
-Figure 8 : [Test des analyseurs](../images/SOC/Test%20des%20analyseurs.jpg)
+---
 
-Nous avons intégré dans notre fichier Docker Compose la configuration des conteneurs requis pour assurer un déploiement optimal de la plateforme TheHive et de ses services associés.
-L’interface Web de TheHive est désormais accessible via le port 9000, comme illustré dans la figure suivante.
+## 🌐 Intégration des analyseurs
 
+### VirusTotal
 
-Figure 9 : [Interface graphique de TheHive](../images/SOC/Interface%20graphique%20de%20TheHive.png)
+VirusTotal permet d’analyser des fichiers et des URL à l’aide de plusieurs moteurs antivirus.
 
-L’étape suivante a consisté à créer un compte administrateur associé à l’organisation précédemment configurée, comme illustré dans cette figure.
+La figure suivante montre l’ajout de cet analyseur dans Cortex.  
+![VirusTotal](../images/soar/virustotal.png)  
+*Figure 6 : Ajout de l’analyseur VirusTotal*
 
-Figure 10 : [Création d’un utilisateur au niveau de TheHive](../images/SOC/Création%20d’un%20utilisateur%20au%20niveau%20de%20TheHive.png)
+---
 
-* Intégration de TheHive avec Cortex et MISP
+### AbuseIPDB
 
-L’intégration de TheHive avec Cortex a été préalablement définie lors de la configuration du conteneur TheHive, en spécifiant les paramètres nécessaires à la communication, notamment le port d’écoute et la clé API de Cortex, comme illustré dans la figure suivante.
+AbuseIPDB permet de vérifier la réputation d’une adresse IP et de détecter les activités malveillantes.
 
-Figure 11 : [Intégration de TheHive et Cortex](../images/SOC/Intégration%20de%20TheHive%20et%20Cortex.jpg)
+La figure suivante présente son intégration dans Cortex.  
+![AbuseIPDB](../images/soar/abuseipdb.png)  
+*Figure 7 : Ajout de l’analyseur AbuseIPDB*
 
-Pour intégrer TheHive avec MISP, un répertoire de configuration spécifique a été créé, contenant l’URL du serveur MISP, la clé API et l’identifiant de l’organisation. Ce répertoire a ensuite été monté dans le conteneur TheHive, assurant une intégration fluide et sécurisée. La figure suivante illustre cette configuration.
+---
 
-Figure 12 : [Répertoire d’intégration de TheHive et MISP](../images/SOC/Répertoire%20d’intégration%20de%20TheHive%20et%20MISP.jpg)
+### 🧪 Test des analyseurs
 
-Nous avons monté le répertoire de configuration dans le conteneur TheHive afin d’établir l’intégration avec la plateforme MISP, comme le montre la figure suivante.
+Après l’intégration des analyseurs, un test a été réalisé afin de valider leur bon fonctionnement.
 
-Figure 13 : [Intégration de TheHive et MISP](../images/SOC/Intégration%20de%20TheHive%20et%20MISP.jpg)
+Les résultats ont été correctement enregistrés dans l’historique des tâches de Cortex.  
+La figure suivante illustre ces résultats.  
+![Test Analyseurs](../images/soar/cortex_test.png)  
+*Figure 8 : Test des analyseurs dans Cortex*
 
-Comme le montre la figure 4.42, nous avons réussi à intégrer Cortex et MISP avec succès dans TheHive, ce qui confirme la bonne configuration des connexions entre ces plateformes.
+---
 
-Figure 14 : [Plateformes intégrées](../images/SOC/Plateformes%20intégrées.png)
+## 🐝 Déploiement de TheHive
 
-* Intégration de SOAR et SIEM
+La plateforme **TheHive** a été déployée via Docker Compose avec ses services associés.
 
-Dans cette phase, nous avons intégré TheHive avec Wazuh afin de permettre une collaboration efficace entre le SOAR et le SIEM. Cette intégration automatise le traitement des alertes générées par Wazuh, optimisant la gestion des incidents de sécurité. Pour ce faire, le module TheHive4py a été installé sur le serveur Wazuh, assurant une communication fluide entre les deux plateformes. La figure suivante illustre cette configuration.
+La figure suivante montre l’interface Web accessible via le port 9000.  
+![Interface TheHive](../images/soar/thehive_interface.png)  
+*Figure 9 : Interface graphique de TheHive*
 
-Figure 15 : [Installation de TheHive4py sur Wazuh](../images/SOC/Installation%20de%20TheHive4py%20sur%20Wazuh.png)
+Un compte administrateur a été créé pour gérer l’organisation.  
+La figure suivante illustre cette étape.  
+![User TheHive](../images/soar/thehive_user.png)  
+*Figure 10 : Création d’un utilisateur au niveau de TheHive*
 
-Nous avons ensuite procédé à l’intégration de TheHive avec Wazuh en ajoutant l’URL, le port d’écoute de TheHive ainsi que la clé API dans le fichier de configuration deWazuh /var/ossec/etc/ossec.conf,
-comme le montre la figure suivante.
+---
 
-Figure 16 : [Intégration de Wazuh et TheHive](../images/SOC/Intégration%20de%20Wazuh%20et%20TheHive.png)
+## 🔗 Intégration de TheHive avec Cortex et MISP
 
-Suite à l’intégration réussie entreWazuh et TheHive, la transmission fluide des alertes de sécurité
-a été rendue possible.
-Cette figure illustre des événements générés par Wazuh, automatiquement remontés dans TheHive pour analyse.
+L’intégration avec Cortex a été réalisée en configurant les paramètres nécessaires (clé API, port).
 
-Figure 17 : [Alertes TheHive](../images/SOC/Alertes%20TheHive.png)
+La figure suivante montre cette configuration.  
+![Integration TheHive Cortex](../images/soar/thehive_cortex.png)  
+*Figure 11 : Intégration de TheHive et Cortex*
 
+Pour l’intégration avec MISP, un répertoire de configuration contenant l’URL, la clé API et l’identifiant de l’organisation a été créé et monté dans le conteneur TheHive.
 
+La figure suivante illustre cette configuration.  
+![Integration TheHive MISP Config](../images/soar/thehive_misp_config.png)  
+*Figure 12 : Répertoire d’intégration de TheHive et MISP*
 
+La figure suivante montre l’intégration effective entre TheHive et MISP.  
+![Integration TheHive MISP](../images/soar/thehive_misp.png)  
+*Figure 13 : Intégration de TheHive et MISP*
+
+La figure ci-dessous confirme l’intégration complète des plateformes.  
+![Integrations](../images/soar/thehive_integrations.png)  
+*Figure 14 : Plateformes intégrées dans TheHive*
+
+---
+
+## 🔄 Intégration SOAR et SIEM
+
+Dans cette phase, nous avons intégré **TheHive** avec **Wazuh** afin d’automatiser le traitement des alertes de sécurité.
+
+Le module **TheHive4py** a été installé sur le serveur Wazuh pour assurer la communication entre les plateformes.  
+La figure suivante montre cette installation.  
+![TheHive4py](../images/soar/thehive4py.png)  
+*Figure 15 : Installation de TheHive4py sur Wazuh*
+
+La configuration a été réalisée en ajoutant l’URL, le port et la clé API de TheHive dans le fichier `/var/ossec/etc/ossec.conf`.  
+La figure suivante illustre cette configuration.  
+![Integration Wazuh TheHive](../images/soar/wazuh_thehive.png)  
+*Figure 16 : Intégration de Wazuh et TheHive*
+
+Suite à cette intégration, les alertes générées par Wazuh sont automatiquement remontées dans TheHive pour analyse.
+
+La figure suivante montre ces alertes.  
+![Alertes TheHive](../images/soar/thehive_alerts.png)  
+*Figure 17 : Alertes Wazuh remontées dans TheHive*
+
+---
+
+Ce document présente une vue complète de la **solution SOAR**, incluant le déploiement des plateformes, leur intégration ainsi que l’automatisation du traitement des incidents de sécurité.
