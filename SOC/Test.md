@@ -71,3 +71,7 @@ Dès la réception de l’alerte, nous avons ouvert le cas pour examiner les inf
 L’analyse de l’artefact par **Cortex** a généré un **rapport détaillé**, dont les résultats sont illustrés ci-dessous.  
 ![Figure 14 : Rapport d’analyse Cortex](../images/tests/cortex_malicious_report1.png)  
 ![Figure 15 : Suite du rapport d’analyse Cortex](../images/tests/cortex_malicious_report2.png)
+
+---
+
+Ce document présente les résultats des tests effectués sur notre architecture **SOC**, confirmant l’efficacité de la solution et l’intégration réussie des outils pour une réponse automatisée et structurée aux incidents de sécurité.
