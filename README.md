@@ -42,12 +42,12 @@ Illustration du réseau cible enrichi par l’intégration des composants SOC, m
 ## 🛠️ Outils et technologies
 
 - **Wazuh** : SIEM et détection d’intrusions, collecte et corrélation des événements de sécurité  
-- **TheHive** : gestion centralisée des incidents et orchestration des workflows  
-- **Cortex** : analyse automatisée des observables et enrichissement des données  
-- **Kali Linux** : simulation d’attaques et tests de pénétration  
-- **Ubuntu Server & Windows 10** : endpoints surveillés et collecteurs de logs  
-- **pfSense** : pare-feux périmétriques avec journalisation centralisée  
-- Protocoles et standards : VLAN, SSH, Syslog, Remote Logging, MITRE ATT&CK, FIM (File Integrity Monitoring)  
+- **TheHive** : plateforme SOAR pour la gestion centralisée des incidents, orchestration et automatisation des workflows de réponse  
+- **Cortex** : analyse automatisée des observables et enrichissement des incidents grâce à l’intégration avec des sources externes  
+- **MISP** : plateforme de Threat Intelligence pour le partage de renseignements sur les menaces et l’enrichissement des incidents dans le SOC  
+- **Zabbix** : supervision et monitoring des systèmes et applications, collecte d’indicateurs de performance et d’événements critiques  
+- **VirusTotal** : service d’analyse de fichiers et d’URL pour détecter les malwares et identifier les indicateurs de compromission  
+- **AbuseIPDB** : base de données publique de réputation d’IP pour vérifier et enrichir les alertes liées aux adresses IP malveillantes  
 
 ---
 
