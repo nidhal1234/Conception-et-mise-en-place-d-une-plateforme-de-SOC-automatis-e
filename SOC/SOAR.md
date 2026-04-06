@@ -15,10 +15,11 @@ L’ensemble des composants a été déployé sur un serveur **Ubuntu**, intégr
 
 Pour la mise en place de la plateforme MISP, un fichier **Docker Compose** a été utilisé afin de déployer une architecture multi-services.
 
-Les conteneurs ont été lancés via la commande `docker compose up -d`, permettant un déploiement en arrière-plan.
+Les conteneurs ont été lancés via la commande `docker compose up`, permettant un déploiement en arrière-plan.
 
 La figure suivante montre l’interface graphique de MISP accessible via un navigateur web, confirmant le bon fonctionnement du service.  
-![Interface MISP](../images/soar/misp_interface.png)  
+
+![Interface MISP](../images/SOC/Interface_graphique_de_MISP.png)  
 *Figure 1 : Interface graphique de MISP*
 
 Un utilisateur administrateur a ensuite été créé afin de gérer la plateforme.  
