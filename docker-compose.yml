@@ -128,7 +128,7 @@ services:
       - "INIT=true"         
       - "CRON_USER_ID=1"   
       - "REDIS_FQDN=redis"
-      - "HOSTNAME=https://10.0.2.10"
+      - "HOSTNAME=https://192.168.77.5"
     networks:
       - SOC_NET
 
