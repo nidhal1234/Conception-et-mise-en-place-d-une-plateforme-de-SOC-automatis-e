@@ -81,6 +81,6 @@ Ces tests démontrent l’efficacité du SOC pour la **supervision proactive**, 
 - `SOAR.md` : déploiement et utilisation des outils TheHive, Cortex et MISP pour l’orchestration, l’automatisation et la réponse aux incidents de sécurité.  
 - `Test.md` : description des scénarios de tests, simulations d’attaques et validation de l’efficacité des solutions SOC.  
 - `images/` : captures d’écran, schémas d’architecture et illustrations pour documentation et reporting.
-- `docker-compose.yml` : fichier de déploiement Docker orchestrant les conteneurs pour TheHive, Cortex et MISP
+- `docker-compose.yml` : fichier de déploiement Docker orchestrant les conteneurs pour TheHive, Cortex et MISP.
   
 
