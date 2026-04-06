@@ -34,7 +34,8 @@ La figure suivante illustre cette étape.
 
 Le conteneur **Cortex** ainsi que son moteur **Elasticsearch** ont été intégrés dans Docker Compose afin d’assurer un déploiement cohérent.
 
-La figure suivante montre l’interface graphique de Cortex accessible via le port 9001.  
+La figure suivante montre l’interface graphique de Cortex accessible via le port 9001. 
+
 ![Interface Cortex](../images/soar/cortex_interface.png)  
 *Figure 3 : Interface graphique de Cortex*
 
