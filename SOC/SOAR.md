@@ -99,13 +99,15 @@ La figure suivante illustre ces résultats.
 
 La plateforme **TheHive** a été déployée via Docker Compose avec ses services associés.
 
-La figure suivante montre l’interface Web accessible via le port 9000.  
-![Interface TheHive](../images/soar/thehive_interface.png)  
+La figure suivante montre l’interface Web accessible via le port 9000. 
+
+![Interface TheHive](../images/SOC/Interface_graphique_de_TheHive.png)  
 *Figure 9 : Interface graphique de TheHive*
 
 Un compte administrateur a été créé pour gérer l’organisation.  
-La figure suivante illustre cette étape.  
-![User TheHive](../images/soar/thehive_user.png)  
+La figure suivante illustre cette étape.
+
+![User TheHive](../images/SOC/Création_utilisateur_au_niveau_de_TheHive.png)  
 *Figure 10 : Création d’un utilisateur au niveau de TheHive*
 
 ---
