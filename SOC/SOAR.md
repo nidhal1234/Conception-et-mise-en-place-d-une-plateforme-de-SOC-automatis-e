@@ -11,21 +11,6 @@ L’ensemble des composants a été déployé sur un serveur **Ubuntu**, intégr
 
 ---
 
-## 📌 Table des matières
-
-1. [Déploiement de MISP](#déploiement-de-misp)  
-2. [Déploiement de Cortex](#déploiement-de-cortex)  
-3. [Intégration de Cortex et MISP](#intégration-de-cortex-et-misp)  
-4. [Intégration des analyseurs](#intégration-des-analyseurs)  
-   - [VirusTotal](#virustotal)  
-   - [AbuseIPDB](#abuseipdb)  
-   - [Test des analyseurs](#test-des-analyseurs)  
-5. [Déploiement de TheHive](#déploiement-de-thehive)  
-6. [Intégration de TheHive avec Cortex et MISP](#intégration-de-thehive-avec-cortex-et-misp)  
-7. [Intégration SOAR et SIEM](#intégration-soar-et-siem)  
-
----
-
 ## 🧩 Déploiement de MISP
 
 Pour la mise en place de la plateforme MISP, un fichier **Docker Compose** a été utilisé afin de déployer une architecture multi-services.
