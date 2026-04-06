@@ -65,36 +65,36 @@ Ce test avait pour objectif de vérifier la capacité du système à détecter u
 
 Pour initier ce scénario, le fichier malveillant a été téléchargé sur la machine Ubuntu Server du réseau de test.  
 
-![Téléchargement malveillant](../images/Test/09_telechargement_fichier_malveillant.jpg)  
+![Téléchargement malveillant](../images/Test/Telechargement_de_fichier_malveillant.jpg)  
 *Figure 9 : Téléchargement de fichier malveillant*
 
 Une alerte a été immédiatement générée par **Wazuh** dans la section **File Integrity Monitoring**, signalant une modification non autorisée du système de fichiers.  
 Cette alerte indiquait l’ajout d’un fichier malveillant de type Trojan sur la machine Ubuntu ciblée.  
 
-![Alerte fichier malveillant](../images/Test/10_detection_fichier_malveillant_wazuh.jpg)  
+![Alerte fichier malveillant](../images/Test/Detection_ichier_malveillant_via_Wazuh.jpg)  
 *Figure 10 : Détection du fichier malveillant via Wazuh*
 
 Cette vue détaillée met en évidence les informations critiques relatives à l’ajout du fichier malveillant.  
 
-![Rapport alerte Wazuh](../images/Test/11_rapport_alerte_wazuh.jpg)  
+![Rapport alerte Wazuh](../images/Test/Rapport_alerte_Wazuh.jpg)  
 *Figure 11 : Rapport d’alerte Wazuh*
 
 Suite à la détection par Wazuh, une alerte liée au fichier malveillant a été automatiquement générée dans **TheHive**.  
 
-![Alerte TheHive fichier](../images/Test/12_alerte_thehive_fichier.jpg)  
+![Alerte TheHive fichier](../images/Test/Declenchement_une_alerte_TheHive.jpg)  
 *Figure 12 : Déclenchement d’une alerte dans TheHive*
 
 Dès la réception de l’alerte, nous avons ouvert le cas pour examiner les informations contextuelles.  
 
-![Vue TheHive fichier](../images/Test/13_vue_thehive_fichier.jpg)  
+![Vue TheHive fichier](../images/Test/Vue_detaillée_de_alerte_dans_TheHive.jpg)  
 *Figure 13 : Vue détaillée de l’alerte dans TheHive*
 
 L’analyse de l’artefact par **Cortex** a généré un **rapport détaillé**, dont les résultats sont illustrés ci-dessous.  
 
-![Rapport Cortex 1](../images/Test/14_rapport_cortex_malveillant1.jpg)  
+![Rapport Cortex 1](../images/Test/Rapport_analyse_Cortex.jpg)  
 *Figure 14 : Rapport d’analyse Cortex*  
 
-![Rapport Cortex 2](../images/Test/15_rapport_cortex_malveillant2.jpg)  
+![Rapport Cortex 2](../images/Test/Suite_de_rapport_analyse_Cortex.jpg)  
 *Figure 15 : Suite du rapport d’analyse Cortex*
 
 ---
