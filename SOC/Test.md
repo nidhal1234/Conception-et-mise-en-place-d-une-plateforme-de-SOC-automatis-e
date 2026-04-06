@@ -11,7 +11,7 @@ Pour simuler une attaque par force brute, la machine **PC1** a été temporairem
 
 La figure suivante illustre l’intégration de Kali Linux au sein de notre architecture réseau.
 
-![Intégration Kali Linux](../images/Test/01_integration_machine_Kali_Linux.jpg)  
+![Intégration Kali Linux](../images/Test/Intégration_de_la_machine_Kali_Linux_dans_la_maquette.jpg)  
 *Figure 1 : Intégration de la machine Kali Linux dans la maquette*
 
 Après l’intégration de Kali Linux en tant que poste d’attaque au sein du **VLAN 10**, nous avons procédé à une simulation d’attaque par force brute ciblant le serveur **Ubuntu** placé dans le **VLAN 77**.  
