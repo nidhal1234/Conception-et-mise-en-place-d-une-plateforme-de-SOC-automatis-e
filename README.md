@@ -9,7 +9,7 @@ Il couvre la configuration des équipements réseau, l’intégration des outils
 
 - Déployer une **architecture réseau segmentée** avec VLAN, routage sécurisé et isolation des flux critiques.  
 - Implémenter une **solution SOC complète** pour la corrélation, la centralisation et l’analyse des événements de sécurité.  
-- Automatiser la **gestion des alertes et la réponse aux incidents** via des outils comme **Wazuh**, **TheHive** et **Cortex**.  
+- Automatiser la **gestion des alertes et la réponse aux incidents** via des outils comme **Wazuh**, **TheHive**, **Cortex** et **MISP**.  
 - Tester la résilience et la détection face à des scénarios d’attaque réalistes (force brute, fichiers malveillants, compromission de endpoints).
 
 ---
