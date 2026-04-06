@@ -66,7 +66,8 @@ La figure suivante illustre cette intégration.
 VirusTotal permet d’analyser des fichiers et des URL à l’aide de plusieurs moteurs antivirus.
 
 La figure suivante montre l’ajout de cet analyseur dans Cortex.  
-![VirusTotal](../images/soar/virustotal.png)  
+
+![VirusTotal](../images/SOC/Ajout_analyseur_VirusTotal.png)  
 *Figure 6 : Ajout de l’analyseur VirusTotal*
 
 ---
@@ -75,8 +76,9 @@ La figure suivante montre l’ajout de cet analyseur dans Cortex.
 
 AbuseIPDB permet de vérifier la réputation d’une adresse IP et de détecter les activités malveillantes.
 
-La figure suivante présente son intégration dans Cortex.  
-![AbuseIPDB](../images/soar/abuseipdb.png)  
+La figure suivante présente son intégration dans Cortex. 
+
+![AbuseIPDB](../images/SOC/Ajout_analyseur_AbuseIPDB.png)  
 *Figure 7 : Ajout de l’analyseur AbuseIPDB*
 
 ---
