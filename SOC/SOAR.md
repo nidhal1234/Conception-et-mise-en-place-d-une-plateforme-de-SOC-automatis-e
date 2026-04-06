@@ -42,7 +42,7 @@ La figure suivante montre l’interface graphique de Cortex accessible via le po
 Un utilisateur a ensuite été configuré avec les permissions nécessaires.  
 La figure suivante présente cette configuration.  
 
-![User Cortex](../images/SOC/Création_utilisateur_au_niveau_de_Cortex.pngg)  
+![User Cortex](../images/SOC/Création_utilisateur_au_niveau_de_Cortex.png)  
 *Figure 4 : Création d’un utilisateur au niveau de Cortex*
 
 ---
