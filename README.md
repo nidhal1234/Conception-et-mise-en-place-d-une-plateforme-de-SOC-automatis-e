@@ -22,7 +22,7 @@ La configuration comprend VLAN, sous-réseaux, liaisons inter-switches, intercon
 Ces derniers assurent une sécurisation robuste du trafic réseau, le filtrage des accès, la journalisation centralisée et la protection contre les menaces externes.  
 L’ensemble de l’architecture est entièrement provisionné et opérationnel.
 
-![Architecture réseau cible](./images/Arhitecture_SOAR.png)  
+![Architecture réseau cible](./images/network_configuration/Architecture_Reseau.png)  
 *Architecture réseau cible*
 
 ### 2. Architecture SOC
