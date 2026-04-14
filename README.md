@@ -82,5 +82,7 @@ Ces tests démontrent l’efficacité du SOC pour la **supervision proactive**, 
 - `Test.md` : description des scénarios de tests, simulations d’attaques et validation de l’efficacité des solutions SOC.  
 - `images/` : captures d’écran, schémas d’architecture et illustrations pour documentation et reporting.
 - `docker-compose.yml` : fichier de déploiement Docker orchestrant les conteneurs pour TheHive, Cortex et MISP.
-  
+- `Installation_Wazuh.md` : guide d’installation de Wazuh via machine virtuelle OVA.
+- `Installation_Zabbix.md` : guide d’installation et configuration de Zabbix via machine virtuelle VMware.
+- `Installation_pfSense.md` : guide d’installation et configuration de pfSense via image ISO.
 
